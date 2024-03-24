@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblogic_elements.a CMakeFiles/logic_elements.dir/AndGate.cpp.o CMakeFiles/logic_elements.dir/InvertorGate.cpp.o CMakeFiles/logic_elements.dir/OrGate.cpp.o
+/usr/bin/ranlib liblogic_elements.a
