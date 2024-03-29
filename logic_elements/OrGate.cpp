@@ -11,7 +11,7 @@ OrGate::~OrGate()
 
 bool OrGate::Logic()
 {
-    bool output = m_inputs[0]->state || m_inputs[1]->state;
+    bool output = m_inputs[0]->m_state || m_inputs[1]->m_state;
 
     return output;
 }

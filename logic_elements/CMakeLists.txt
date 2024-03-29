@@ -3,7 +3,7 @@ add_library(
         INTERFACE
         AndGate.h
         Gate.h
-        InvertorGate.h
+        InverterGate.h
         OrGate.h
         Utils.h
 )
@@ -12,8 +12,9 @@ add_library(
         logic_elements
         STATIC
         AndGate.cpp
-        InvertorGate.cpp
+        InverterGate.cpp
         OrGate.cpp
+        Wire.cpp
 )
 
 target_link_libraries(

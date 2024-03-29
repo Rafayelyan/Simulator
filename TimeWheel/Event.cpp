@@ -10,6 +10,16 @@ Event::Event(std::shared_ptr<Wire> wire, size_t tStart, size_t tStabile, bool st
 
 }
 
+bool Event::operator==(const Event &other)
+{
+    bool res =  m_wire == other.m_wire &&
+                m_tStart == other.m_tStart &&
+                m_tStabile == other.m_tStabile &&
+                m_state == other.m_tStart &&
+                m_phase == other.m_phase;
+    return res;
+}
+
 bool Event::ChangePhaseTo(Utils::Phase phase)
 {
     if (phase == m_phase)
@@ -21,14 +31,4 @@ bool Event::ChangePhaseTo(Utils::Phase phase)
     return true;
 }
 
-bool Event::ChangeStateTo(bool state)
-{
-    if (state == m_state)
-    {
-        return false;
-    }
-    m_state = state;
-
-    return true;
-}
 

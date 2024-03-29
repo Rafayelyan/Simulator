@@ -1,9 +1,7 @@
-TimeWheel/CMakeFiles/TimeWheel.dir/TimeWheel.cpp.o: \
- /home/rafayel/thesis/Simulator/TimeWheel/TimeWheel.cpp \
+logic_elements/CMakeFiles/logic_elements.dir/Wire.cpp.o: \
+ /home/rafayel/thesis/Simulator/logic_elements/Wire.cpp \
  /usr/include/stdc-predef.h \
- /home/rafayel/thesis/Simulator/TimeWheel/TimeWheel.h \
- /home/rafayel/thesis/Simulator/TimeWheel/../logic_elements/Gate.h \
- /home/rafayel/thesis/Simulator/TimeWheel/../logic_elements/Wire.h \
+ /home/rafayel/thesis/Simulator/logic_elements/Wire.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -205,10 +203,4 @@ TimeWheel/CMakeFiles/TimeWheel.dir/TimeWheel.cpp.o: \
  /usr/include/c++/11/bits/stream_iterator.h \
  /usr/include/c++/11/bits/uses_allocator_args.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
- /usr/include/c++/11/pstl/execution_defs.h \
- /home/rafayel/thesis/Simulator/TimeWheel/../logic_elements/Utils.h \
- /usr/include/c++/11/iostream /usr/include/c++/11/istream \
- /usr/include/c++/11/bits/istream.tcc \
- /home/rafayel/thesis/Simulator/TimeWheel/../logic_elements/Wire.h \
- /home/rafayel/thesis/Simulator/TimeWheel/Event.h \
- /home/rafayel/thesis/Simulator/TimeWheel/../logic_elements/Utils.h
+ /usr/include/c++/11/pstl/execution_defs.h

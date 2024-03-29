@@ -188,16 +188,22 @@
 		<Unit filename="/home/rafayel/thesis/Simulator/logic_elements/AndGate.h">
 			<Option target="logic_elements"/>
 		</Unit>
-		<Unit filename="/home/rafayel/thesis/Simulator/logic_elements/InvertorGate.cpp">
+		<Unit filename="/home/rafayel/thesis/Simulator/logic_elements/InverterGate.cpp">
 			<Option target="logic_elements"/>
 		</Unit>
-		<Unit filename="/home/rafayel/thesis/Simulator/logic_elements/InvertorGate.h">
+		<Unit filename="/home/rafayel/thesis/Simulator/logic_elements/InverterGate.h">
 			<Option target="logic_elements"/>
 		</Unit>
 		<Unit filename="/home/rafayel/thesis/Simulator/logic_elements/OrGate.cpp">
 			<Option target="logic_elements"/>
 		</Unit>
 		<Unit filename="/home/rafayel/thesis/Simulator/logic_elements/OrGate.h">
+			<Option target="logic_elements"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/logic_elements/Wire.cpp">
+			<Option target="logic_elements"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/logic_elements/Wire.h">
 			<Option target="logic_elements"/>
 		</Unit>
 		<Unit filename="/home/rafayel/thesis/Simulator/simulator.cpp">

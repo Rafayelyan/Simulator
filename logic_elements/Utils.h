@@ -6,7 +6,6 @@ namespace Utils {
     enum Phase
     {
         NotStarted,
-        IsStaringSwitching,
         StartedSwitching,
         Switched
     };

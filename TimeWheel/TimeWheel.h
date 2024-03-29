@@ -15,7 +15,9 @@ public:
 
     std::vector<Event>::iterator FindNextEvent();
     void PopEvent();
+    bool IsAnyDisturbingSignal(std::vector<Event>::iterator currentEvent);
     void PushEvent(Event);
+    void PlaceFanouts(std::shared_ptr<Wire>);
 
 public:
     std::vector<Event>  m_timeWheel;

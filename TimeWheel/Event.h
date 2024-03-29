@@ -13,8 +13,8 @@ class Event
 public:
     Event(std::shared_ptr<Wire>, size_t, size_t, bool, Utils::Phase);
 
+    bool operator==(const Event& other);
     bool ChangePhaseTo(Utils::Phase);
-    bool ChangeStateTo(bool);
 
 public:
     std::shared_ptr<Wire>   m_wire;
