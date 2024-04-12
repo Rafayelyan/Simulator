@@ -10,9 +10,12 @@ set(CMAKE_EXE_LINKER_FLAGS  "${CMAKE_EXE_LINKER_FLAGS} -g -fsanitize=undefined,a
 
 set(SOURCES simulator.cpp)
 
+include_directories(${CMAKE_SOURCE_DIR}/logic_elements)
+include_directories(${CMAKE_SOURCE_DIR}/TimeWheel)
 add_subdirectory(logic_elements)
 add_subdirectory(TimeWheel)
 
 add_executable(${PROJECT_NAME} ${SOURCES})
 
 target_link_libraries(${PROJECT_NAME} PRIVATE logic_elements TimeWheel)
+

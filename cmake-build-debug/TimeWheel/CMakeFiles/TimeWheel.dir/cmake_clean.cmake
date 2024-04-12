@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/TimeWheel.dir/Event.cpp.o"
-  "CMakeFiles/TimeWheel.dir/Event.cpp.o.d"
-  "CMakeFiles/TimeWheel.dir/TimeWheel.cpp.o"
-  "CMakeFiles/TimeWheel.dir/TimeWheel.cpp.o.d"
+  "CMakeFiles/TimeWheel.dir/src/CircuitReader.cpp.o"
+  "CMakeFiles/TimeWheel.dir/src/CircuitReader.cpp.o.d"
+  "CMakeFiles/TimeWheel.dir/src/Event.cpp.o"
+  "CMakeFiles/TimeWheel.dir/src/Event.cpp.o.d"
+  "CMakeFiles/TimeWheel.dir/src/TimeWheel.cpp.o"
+  "CMakeFiles/TimeWheel.dir/src/TimeWheel.cpp.o.d"
   "libTimeWheel.a"
   "libTimeWheel.pdb"
 )

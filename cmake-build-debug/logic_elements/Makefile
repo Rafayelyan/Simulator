@@ -130,101 +130,125 @@ logic_elements/fast:
 	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/build
 .PHONY : logic_elements/fast
 
-AndGate.o: AndGate.cpp.o
-.PHONY : AndGate.o
+src/AndGate.o: src/AndGate.cpp.o
+.PHONY : src/AndGate.o
 
 # target to build an object file
-AndGate.cpp.o:
-	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/AndGate.cpp.o
-.PHONY : AndGate.cpp.o
+src/AndGate.cpp.o:
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/src/AndGate.cpp.o
+.PHONY : src/AndGate.cpp.o
 
-AndGate.i: AndGate.cpp.i
-.PHONY : AndGate.i
+src/AndGate.i: src/AndGate.cpp.i
+.PHONY : src/AndGate.i
 
 # target to preprocess a source file
-AndGate.cpp.i:
-	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/AndGate.cpp.i
-.PHONY : AndGate.cpp.i
+src/AndGate.cpp.i:
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/src/AndGate.cpp.i
+.PHONY : src/AndGate.cpp.i
 
-AndGate.s: AndGate.cpp.s
-.PHONY : AndGate.s
+src/AndGate.s: src/AndGate.cpp.s
+.PHONY : src/AndGate.s
 
 # target to generate assembly for a file
-AndGate.cpp.s:
-	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/AndGate.cpp.s
-.PHONY : AndGate.cpp.s
+src/AndGate.cpp.s:
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/src/AndGate.cpp.s
+.PHONY : src/AndGate.cpp.s
 
-InverterGate.o: InverterGate.cpp.o
-.PHONY : InverterGate.o
+src/InverterGate.o: src/InverterGate.cpp.o
+.PHONY : src/InverterGate.o
 
 # target to build an object file
-InverterGate.cpp.o:
-	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/InverterGate.cpp.o
-.PHONY : InverterGate.cpp.o
+src/InverterGate.cpp.o:
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/src/InverterGate.cpp.o
+.PHONY : src/InverterGate.cpp.o
 
-InverterGate.i: InverterGate.cpp.i
-.PHONY : InverterGate.i
+src/InverterGate.i: src/InverterGate.cpp.i
+.PHONY : src/InverterGate.i
 
 # target to preprocess a source file
-InverterGate.cpp.i:
-	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/InverterGate.cpp.i
-.PHONY : InverterGate.cpp.i
+src/InverterGate.cpp.i:
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/src/InverterGate.cpp.i
+.PHONY : src/InverterGate.cpp.i
 
-InverterGate.s: InverterGate.cpp.s
-.PHONY : InverterGate.s
+src/InverterGate.s: src/InverterGate.cpp.s
+.PHONY : src/InverterGate.s
 
 # target to generate assembly for a file
-InverterGate.cpp.s:
-	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/InverterGate.cpp.s
-.PHONY : InverterGate.cpp.s
+src/InverterGate.cpp.s:
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/src/InverterGate.cpp.s
+.PHONY : src/InverterGate.cpp.s
 
-OrGate.o: OrGate.cpp.o
-.PHONY : OrGate.o
+src/OrGate.o: src/OrGate.cpp.o
+.PHONY : src/OrGate.o
 
 # target to build an object file
-OrGate.cpp.o:
-	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/OrGate.cpp.o
-.PHONY : OrGate.cpp.o
+src/OrGate.cpp.o:
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/src/OrGate.cpp.o
+.PHONY : src/OrGate.cpp.o
 
-OrGate.i: OrGate.cpp.i
-.PHONY : OrGate.i
+src/OrGate.i: src/OrGate.cpp.i
+.PHONY : src/OrGate.i
 
 # target to preprocess a source file
-OrGate.cpp.i:
-	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/OrGate.cpp.i
-.PHONY : OrGate.cpp.i
+src/OrGate.cpp.i:
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/src/OrGate.cpp.i
+.PHONY : src/OrGate.cpp.i
 
-OrGate.s: OrGate.cpp.s
-.PHONY : OrGate.s
+src/OrGate.s: src/OrGate.cpp.s
+.PHONY : src/OrGate.s
 
 # target to generate assembly for a file
-OrGate.cpp.s:
-	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/OrGate.cpp.s
-.PHONY : OrGate.cpp.s
+src/OrGate.cpp.s:
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/src/OrGate.cpp.s
+.PHONY : src/OrGate.cpp.s
 
-Wire.o: Wire.cpp.o
-.PHONY : Wire.o
+src/Utils.o: src/Utils.cpp.o
+.PHONY : src/Utils.o
 
 # target to build an object file
-Wire.cpp.o:
-	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/Wire.cpp.o
-.PHONY : Wire.cpp.o
+src/Utils.cpp.o:
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/src/Utils.cpp.o
+.PHONY : src/Utils.cpp.o
 
-Wire.i: Wire.cpp.i
-.PHONY : Wire.i
+src/Utils.i: src/Utils.cpp.i
+.PHONY : src/Utils.i
 
 # target to preprocess a source file
-Wire.cpp.i:
-	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/Wire.cpp.i
-.PHONY : Wire.cpp.i
+src/Utils.cpp.i:
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/src/Utils.cpp.i
+.PHONY : src/Utils.cpp.i
 
-Wire.s: Wire.cpp.s
-.PHONY : Wire.s
+src/Utils.s: src/Utils.cpp.s
+.PHONY : src/Utils.s
 
 # target to generate assembly for a file
-Wire.cpp.s:
-	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/Wire.cpp.s
-.PHONY : Wire.cpp.s
+src/Utils.cpp.s:
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/src/Utils.cpp.s
+.PHONY : src/Utils.cpp.s
+
+src/Wire.o: src/Wire.cpp.o
+.PHONY : src/Wire.o
+
+# target to build an object file
+src/Wire.cpp.o:
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/src/Wire.cpp.o
+.PHONY : src/Wire.cpp.o
+
+src/Wire.i: src/Wire.cpp.i
+.PHONY : src/Wire.i
+
+# target to preprocess a source file
+src/Wire.cpp.i:
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/src/Wire.cpp.i
+.PHONY : src/Wire.cpp.i
+
+src/Wire.s: src/Wire.cpp.s
+.PHONY : src/Wire.s
+
+# target to generate assembly for a file
+src/Wire.cpp.s:
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/src/Wire.cpp.s
+.PHONY : src/Wire.cpp.s
 
 # Help Target
 help:
@@ -236,18 +260,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... logic_elements"
 	@echo "... logic_elements_headers"
-	@echo "... AndGate.o"
-	@echo "... AndGate.i"
-	@echo "... AndGate.s"
-	@echo "... InverterGate.o"
-	@echo "... InverterGate.i"
-	@echo "... InverterGate.s"
-	@echo "... OrGate.o"
-	@echo "... OrGate.i"
-	@echo "... OrGate.s"
-	@echo "... Wire.o"
-	@echo "... Wire.i"
-	@echo "... Wire.s"
+	@echo "... src/AndGate.o"
+	@echo "... src/AndGate.i"
+	@echo "... src/AndGate.s"
+	@echo "... src/InverterGate.o"
+	@echo "... src/InverterGate.i"
+	@echo "... src/InverterGate.s"
+	@echo "... src/OrGate.o"
+	@echo "... src/OrGate.i"
+	@echo "... src/OrGate.s"
+	@echo "... src/Utils.o"
+	@echo "... src/Utils.i"
+	@echo "... src/Utils.s"
+	@echo "... src/Wire.o"
+	@echo "... src/Wire.i"
+	@echo "... src/Wire.s"
 .PHONY : help
 
 

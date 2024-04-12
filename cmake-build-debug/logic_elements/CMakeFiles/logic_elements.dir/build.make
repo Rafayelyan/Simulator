@@ -69,79 +69,95 @@ include logic_elements/CMakeFiles/logic_elements.dir/progress.make
 # Include the compile flags for this target's objects.
 include logic_elements/CMakeFiles/logic_elements.dir/flags.make
 
-logic_elements/CMakeFiles/logic_elements.dir/AndGate.cpp.o: logic_elements/CMakeFiles/logic_elements.dir/flags.make
-logic_elements/CMakeFiles/logic_elements.dir/AndGate.cpp.o: ../logic_elements/AndGate.cpp
-logic_elements/CMakeFiles/logic_elements.dir/AndGate.cpp.o: logic_elements/CMakeFiles/logic_elements.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object logic_elements/CMakeFiles/logic_elements.dir/AndGate.cpp.o"
-	cd /home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT logic_elements/CMakeFiles/logic_elements.dir/AndGate.cpp.o -MF CMakeFiles/logic_elements.dir/AndGate.cpp.o.d -o CMakeFiles/logic_elements.dir/AndGate.cpp.o -c /home/rafayel/thesis/Simulator/logic_elements/AndGate.cpp
+logic_elements/CMakeFiles/logic_elements.dir/src/AndGate.cpp.o: logic_elements/CMakeFiles/logic_elements.dir/flags.make
+logic_elements/CMakeFiles/logic_elements.dir/src/AndGate.cpp.o: ../logic_elements/src/AndGate.cpp
+logic_elements/CMakeFiles/logic_elements.dir/src/AndGate.cpp.o: logic_elements/CMakeFiles/logic_elements.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object logic_elements/CMakeFiles/logic_elements.dir/src/AndGate.cpp.o"
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT logic_elements/CMakeFiles/logic_elements.dir/src/AndGate.cpp.o -MF CMakeFiles/logic_elements.dir/src/AndGate.cpp.o.d -o CMakeFiles/logic_elements.dir/src/AndGate.cpp.o -c /home/rafayel/thesis/Simulator/logic_elements/src/AndGate.cpp
 
-logic_elements/CMakeFiles/logic_elements.dir/AndGate.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/logic_elements.dir/AndGate.cpp.i"
-	cd /home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rafayel/thesis/Simulator/logic_elements/AndGate.cpp > CMakeFiles/logic_elements.dir/AndGate.cpp.i
+logic_elements/CMakeFiles/logic_elements.dir/src/AndGate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/logic_elements.dir/src/AndGate.cpp.i"
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rafayel/thesis/Simulator/logic_elements/src/AndGate.cpp > CMakeFiles/logic_elements.dir/src/AndGate.cpp.i
 
-logic_elements/CMakeFiles/logic_elements.dir/AndGate.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/logic_elements.dir/AndGate.cpp.s"
-	cd /home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rafayel/thesis/Simulator/logic_elements/AndGate.cpp -o CMakeFiles/logic_elements.dir/AndGate.cpp.s
+logic_elements/CMakeFiles/logic_elements.dir/src/AndGate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/logic_elements.dir/src/AndGate.cpp.s"
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rafayel/thesis/Simulator/logic_elements/src/AndGate.cpp -o CMakeFiles/logic_elements.dir/src/AndGate.cpp.s
 
-logic_elements/CMakeFiles/logic_elements.dir/InverterGate.cpp.o: logic_elements/CMakeFiles/logic_elements.dir/flags.make
-logic_elements/CMakeFiles/logic_elements.dir/InverterGate.cpp.o: ../logic_elements/InverterGate.cpp
-logic_elements/CMakeFiles/logic_elements.dir/InverterGate.cpp.o: logic_elements/CMakeFiles/logic_elements.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object logic_elements/CMakeFiles/logic_elements.dir/InverterGate.cpp.o"
-	cd /home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT logic_elements/CMakeFiles/logic_elements.dir/InverterGate.cpp.o -MF CMakeFiles/logic_elements.dir/InverterGate.cpp.o.d -o CMakeFiles/logic_elements.dir/InverterGate.cpp.o -c /home/rafayel/thesis/Simulator/logic_elements/InverterGate.cpp
+logic_elements/CMakeFiles/logic_elements.dir/src/InverterGate.cpp.o: logic_elements/CMakeFiles/logic_elements.dir/flags.make
+logic_elements/CMakeFiles/logic_elements.dir/src/InverterGate.cpp.o: ../logic_elements/src/InverterGate.cpp
+logic_elements/CMakeFiles/logic_elements.dir/src/InverterGate.cpp.o: logic_elements/CMakeFiles/logic_elements.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object logic_elements/CMakeFiles/logic_elements.dir/src/InverterGate.cpp.o"
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT logic_elements/CMakeFiles/logic_elements.dir/src/InverterGate.cpp.o -MF CMakeFiles/logic_elements.dir/src/InverterGate.cpp.o.d -o CMakeFiles/logic_elements.dir/src/InverterGate.cpp.o -c /home/rafayel/thesis/Simulator/logic_elements/src/InverterGate.cpp
 
-logic_elements/CMakeFiles/logic_elements.dir/InverterGate.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/logic_elements.dir/InverterGate.cpp.i"
-	cd /home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rafayel/thesis/Simulator/logic_elements/InverterGate.cpp > CMakeFiles/logic_elements.dir/InverterGate.cpp.i
+logic_elements/CMakeFiles/logic_elements.dir/src/InverterGate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/logic_elements.dir/src/InverterGate.cpp.i"
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rafayel/thesis/Simulator/logic_elements/src/InverterGate.cpp > CMakeFiles/logic_elements.dir/src/InverterGate.cpp.i
 
-logic_elements/CMakeFiles/logic_elements.dir/InverterGate.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/logic_elements.dir/InverterGate.cpp.s"
-	cd /home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rafayel/thesis/Simulator/logic_elements/InverterGate.cpp -o CMakeFiles/logic_elements.dir/InverterGate.cpp.s
+logic_elements/CMakeFiles/logic_elements.dir/src/InverterGate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/logic_elements.dir/src/InverterGate.cpp.s"
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rafayel/thesis/Simulator/logic_elements/src/InverterGate.cpp -o CMakeFiles/logic_elements.dir/src/InverterGate.cpp.s
 
-logic_elements/CMakeFiles/logic_elements.dir/OrGate.cpp.o: logic_elements/CMakeFiles/logic_elements.dir/flags.make
-logic_elements/CMakeFiles/logic_elements.dir/OrGate.cpp.o: ../logic_elements/OrGate.cpp
-logic_elements/CMakeFiles/logic_elements.dir/OrGate.cpp.o: logic_elements/CMakeFiles/logic_elements.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object logic_elements/CMakeFiles/logic_elements.dir/OrGate.cpp.o"
-	cd /home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT logic_elements/CMakeFiles/logic_elements.dir/OrGate.cpp.o -MF CMakeFiles/logic_elements.dir/OrGate.cpp.o.d -o CMakeFiles/logic_elements.dir/OrGate.cpp.o -c /home/rafayel/thesis/Simulator/logic_elements/OrGate.cpp
+logic_elements/CMakeFiles/logic_elements.dir/src/OrGate.cpp.o: logic_elements/CMakeFiles/logic_elements.dir/flags.make
+logic_elements/CMakeFiles/logic_elements.dir/src/OrGate.cpp.o: ../logic_elements/src/OrGate.cpp
+logic_elements/CMakeFiles/logic_elements.dir/src/OrGate.cpp.o: logic_elements/CMakeFiles/logic_elements.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object logic_elements/CMakeFiles/logic_elements.dir/src/OrGate.cpp.o"
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT logic_elements/CMakeFiles/logic_elements.dir/src/OrGate.cpp.o -MF CMakeFiles/logic_elements.dir/src/OrGate.cpp.o.d -o CMakeFiles/logic_elements.dir/src/OrGate.cpp.o -c /home/rafayel/thesis/Simulator/logic_elements/src/OrGate.cpp
 
-logic_elements/CMakeFiles/logic_elements.dir/OrGate.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/logic_elements.dir/OrGate.cpp.i"
-	cd /home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rafayel/thesis/Simulator/logic_elements/OrGate.cpp > CMakeFiles/logic_elements.dir/OrGate.cpp.i
+logic_elements/CMakeFiles/logic_elements.dir/src/OrGate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/logic_elements.dir/src/OrGate.cpp.i"
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rafayel/thesis/Simulator/logic_elements/src/OrGate.cpp > CMakeFiles/logic_elements.dir/src/OrGate.cpp.i
 
-logic_elements/CMakeFiles/logic_elements.dir/OrGate.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/logic_elements.dir/OrGate.cpp.s"
-	cd /home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rafayel/thesis/Simulator/logic_elements/OrGate.cpp -o CMakeFiles/logic_elements.dir/OrGate.cpp.s
+logic_elements/CMakeFiles/logic_elements.dir/src/OrGate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/logic_elements.dir/src/OrGate.cpp.s"
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rafayel/thesis/Simulator/logic_elements/src/OrGate.cpp -o CMakeFiles/logic_elements.dir/src/OrGate.cpp.s
 
-logic_elements/CMakeFiles/logic_elements.dir/Wire.cpp.o: logic_elements/CMakeFiles/logic_elements.dir/flags.make
-logic_elements/CMakeFiles/logic_elements.dir/Wire.cpp.o: ../logic_elements/Wire.cpp
-logic_elements/CMakeFiles/logic_elements.dir/Wire.cpp.o: logic_elements/CMakeFiles/logic_elements.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object logic_elements/CMakeFiles/logic_elements.dir/Wire.cpp.o"
-	cd /home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT logic_elements/CMakeFiles/logic_elements.dir/Wire.cpp.o -MF CMakeFiles/logic_elements.dir/Wire.cpp.o.d -o CMakeFiles/logic_elements.dir/Wire.cpp.o -c /home/rafayel/thesis/Simulator/logic_elements/Wire.cpp
+logic_elements/CMakeFiles/logic_elements.dir/src/Wire.cpp.o: logic_elements/CMakeFiles/logic_elements.dir/flags.make
+logic_elements/CMakeFiles/logic_elements.dir/src/Wire.cpp.o: ../logic_elements/src/Wire.cpp
+logic_elements/CMakeFiles/logic_elements.dir/src/Wire.cpp.o: logic_elements/CMakeFiles/logic_elements.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object logic_elements/CMakeFiles/logic_elements.dir/src/Wire.cpp.o"
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT logic_elements/CMakeFiles/logic_elements.dir/src/Wire.cpp.o -MF CMakeFiles/logic_elements.dir/src/Wire.cpp.o.d -o CMakeFiles/logic_elements.dir/src/Wire.cpp.o -c /home/rafayel/thesis/Simulator/logic_elements/src/Wire.cpp
 
-logic_elements/CMakeFiles/logic_elements.dir/Wire.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/logic_elements.dir/Wire.cpp.i"
-	cd /home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rafayel/thesis/Simulator/logic_elements/Wire.cpp > CMakeFiles/logic_elements.dir/Wire.cpp.i
+logic_elements/CMakeFiles/logic_elements.dir/src/Wire.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/logic_elements.dir/src/Wire.cpp.i"
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rafayel/thesis/Simulator/logic_elements/src/Wire.cpp > CMakeFiles/logic_elements.dir/src/Wire.cpp.i
 
-logic_elements/CMakeFiles/logic_elements.dir/Wire.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/logic_elements.dir/Wire.cpp.s"
-	cd /home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rafayel/thesis/Simulator/logic_elements/Wire.cpp -o CMakeFiles/logic_elements.dir/Wire.cpp.s
+logic_elements/CMakeFiles/logic_elements.dir/src/Wire.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/logic_elements.dir/src/Wire.cpp.s"
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rafayel/thesis/Simulator/logic_elements/src/Wire.cpp -o CMakeFiles/logic_elements.dir/src/Wire.cpp.s
+
+logic_elements/CMakeFiles/logic_elements.dir/src/Utils.cpp.o: logic_elements/CMakeFiles/logic_elements.dir/flags.make
+logic_elements/CMakeFiles/logic_elements.dir/src/Utils.cpp.o: ../logic_elements/src/Utils.cpp
+logic_elements/CMakeFiles/logic_elements.dir/src/Utils.cpp.o: logic_elements/CMakeFiles/logic_elements.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object logic_elements/CMakeFiles/logic_elements.dir/src/Utils.cpp.o"
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT logic_elements/CMakeFiles/logic_elements.dir/src/Utils.cpp.o -MF CMakeFiles/logic_elements.dir/src/Utils.cpp.o.d -o CMakeFiles/logic_elements.dir/src/Utils.cpp.o -c /home/rafayel/thesis/Simulator/logic_elements/src/Utils.cpp
+
+logic_elements/CMakeFiles/logic_elements.dir/src/Utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/logic_elements.dir/src/Utils.cpp.i"
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rafayel/thesis/Simulator/logic_elements/src/Utils.cpp > CMakeFiles/logic_elements.dir/src/Utils.cpp.i
+
+logic_elements/CMakeFiles/logic_elements.dir/src/Utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/logic_elements.dir/src/Utils.cpp.s"
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rafayel/thesis/Simulator/logic_elements/src/Utils.cpp -o CMakeFiles/logic_elements.dir/src/Utils.cpp.s
 
 # Object files for target logic_elements
 logic_elements_OBJECTS = \
-"CMakeFiles/logic_elements.dir/AndGate.cpp.o" \
-"CMakeFiles/logic_elements.dir/InverterGate.cpp.o" \
-"CMakeFiles/logic_elements.dir/OrGate.cpp.o" \
-"CMakeFiles/logic_elements.dir/Wire.cpp.o"
+"CMakeFiles/logic_elements.dir/src/AndGate.cpp.o" \
+"CMakeFiles/logic_elements.dir/src/InverterGate.cpp.o" \
+"CMakeFiles/logic_elements.dir/src/OrGate.cpp.o" \
+"CMakeFiles/logic_elements.dir/src/Wire.cpp.o" \
+"CMakeFiles/logic_elements.dir/src/Utils.cpp.o"
 
 # External object files for target logic_elements
 logic_elements_EXTERNAL_OBJECTS =
 
-logic_elements/liblogic_elements.a: logic_elements/CMakeFiles/logic_elements.dir/AndGate.cpp.o
-logic_elements/liblogic_elements.a: logic_elements/CMakeFiles/logic_elements.dir/InverterGate.cpp.o
-logic_elements/liblogic_elements.a: logic_elements/CMakeFiles/logic_elements.dir/OrGate.cpp.o
-logic_elements/liblogic_elements.a: logic_elements/CMakeFiles/logic_elements.dir/Wire.cpp.o
+logic_elements/liblogic_elements.a: logic_elements/CMakeFiles/logic_elements.dir/src/AndGate.cpp.o
+logic_elements/liblogic_elements.a: logic_elements/CMakeFiles/logic_elements.dir/src/InverterGate.cpp.o
+logic_elements/liblogic_elements.a: logic_elements/CMakeFiles/logic_elements.dir/src/OrGate.cpp.o
+logic_elements/liblogic_elements.a: logic_elements/CMakeFiles/logic_elements.dir/src/Wire.cpp.o
+logic_elements/liblogic_elements.a: logic_elements/CMakeFiles/logic_elements.dir/src/Utils.cpp.o
 logic_elements/liblogic_elements.a: logic_elements/CMakeFiles/logic_elements.dir/build.make
 logic_elements/liblogic_elements.a: logic_elements/CMakeFiles/logic_elements.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library liblogic_elements.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library liblogic_elements.a"
 	cd /home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements && $(CMAKE_COMMAND) -P CMakeFiles/logic_elements.dir/cmake_clean_target.cmake
 	cd /home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/logic_elements.dir/link.txt --verbose=$(VERBOSE)
 

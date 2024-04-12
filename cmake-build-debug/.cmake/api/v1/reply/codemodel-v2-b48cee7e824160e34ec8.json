@@ -1,0 +1,131 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "logic_elements",
+					"jsonFile" : "directory-logic_elements-Debug-c942e59d780c7131e856.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "logic_elements",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "TimeWheel",
+					"jsonFile" : "directory-TimeWheel-Debug-37a8a488a1cc59de325c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "TimeWheel",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "simulator_logic",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "TimeWheel::@91a5ffb834bb393c7642",
+					"jsonFile" : "target-TimeWheel-Debug-c54f7fee394d5337e2c7.json",
+					"name" : "TimeWheel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "TimeWheelHeaders::@91a5ffb834bb393c7642",
+					"jsonFile" : "target-TimeWheelHeaders-Debug-b64cb7b97c8746f19c9c.json",
+					"name" : "TimeWheelHeaders",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "logic_elements::@33407603563ab09a15b4",
+					"jsonFile" : "target-logic_elements-Debug-b9ae5b0786ae2f847595.json",
+					"name" : "logic_elements",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "logic_elements_headers::@33407603563ab09a15b4",
+					"jsonFile" : "target-logic_elements_headers-Debug-8ee346e824cf0d23a6aa.json",
+					"name" : "logic_elements_headers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simulator_logic::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simulator_logic-Debug-530cd2cbc93e5529870e.json",
+					"name" : "simulator_logic",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rafayel/thesis/Simulator/cmake-build-debug",
+		"source" : "/home/rafayel/thesis/Simulator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

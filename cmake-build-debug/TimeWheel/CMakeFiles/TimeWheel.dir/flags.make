@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/rafayel/thesis/Simulator/logic_elements -I/home/rafayel/thesis/Simulator/TimeWheel -I/home/rafayel/thesis/Simulator/TimeWheel/include
 
 CXX_FLAGS =  -g -fsanitize=undefined,address -Wall -Wextra -Werror -g -std=gnu++20
 

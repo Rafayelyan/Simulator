@@ -130,53 +130,77 @@ TimeWheel/fast:
 	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f TimeWheel/CMakeFiles/TimeWheel.dir/build.make TimeWheel/CMakeFiles/TimeWheel.dir/build
 .PHONY : TimeWheel/fast
 
-Event.o: Event.cpp.o
-.PHONY : Event.o
+src/CircuitReader.o: src/CircuitReader.cpp.o
+.PHONY : src/CircuitReader.o
 
 # target to build an object file
-Event.cpp.o:
-	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f TimeWheel/CMakeFiles/TimeWheel.dir/build.make TimeWheel/CMakeFiles/TimeWheel.dir/Event.cpp.o
-.PHONY : Event.cpp.o
+src/CircuitReader.cpp.o:
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f TimeWheel/CMakeFiles/TimeWheel.dir/build.make TimeWheel/CMakeFiles/TimeWheel.dir/src/CircuitReader.cpp.o
+.PHONY : src/CircuitReader.cpp.o
 
-Event.i: Event.cpp.i
-.PHONY : Event.i
+src/CircuitReader.i: src/CircuitReader.cpp.i
+.PHONY : src/CircuitReader.i
 
 # target to preprocess a source file
-Event.cpp.i:
-	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f TimeWheel/CMakeFiles/TimeWheel.dir/build.make TimeWheel/CMakeFiles/TimeWheel.dir/Event.cpp.i
-.PHONY : Event.cpp.i
+src/CircuitReader.cpp.i:
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f TimeWheel/CMakeFiles/TimeWheel.dir/build.make TimeWheel/CMakeFiles/TimeWheel.dir/src/CircuitReader.cpp.i
+.PHONY : src/CircuitReader.cpp.i
 
-Event.s: Event.cpp.s
-.PHONY : Event.s
+src/CircuitReader.s: src/CircuitReader.cpp.s
+.PHONY : src/CircuitReader.s
 
 # target to generate assembly for a file
-Event.cpp.s:
-	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f TimeWheel/CMakeFiles/TimeWheel.dir/build.make TimeWheel/CMakeFiles/TimeWheel.dir/Event.cpp.s
-.PHONY : Event.cpp.s
+src/CircuitReader.cpp.s:
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f TimeWheel/CMakeFiles/TimeWheel.dir/build.make TimeWheel/CMakeFiles/TimeWheel.dir/src/CircuitReader.cpp.s
+.PHONY : src/CircuitReader.cpp.s
 
-TimeWheel.o: TimeWheel.cpp.o
-.PHONY : TimeWheel.o
+src/Event.o: src/Event.cpp.o
+.PHONY : src/Event.o
 
 # target to build an object file
-TimeWheel.cpp.o:
-	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f TimeWheel/CMakeFiles/TimeWheel.dir/build.make TimeWheel/CMakeFiles/TimeWheel.dir/TimeWheel.cpp.o
-.PHONY : TimeWheel.cpp.o
+src/Event.cpp.o:
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f TimeWheel/CMakeFiles/TimeWheel.dir/build.make TimeWheel/CMakeFiles/TimeWheel.dir/src/Event.cpp.o
+.PHONY : src/Event.cpp.o
 
-TimeWheel.i: TimeWheel.cpp.i
-.PHONY : TimeWheel.i
+src/Event.i: src/Event.cpp.i
+.PHONY : src/Event.i
 
 # target to preprocess a source file
-TimeWheel.cpp.i:
-	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f TimeWheel/CMakeFiles/TimeWheel.dir/build.make TimeWheel/CMakeFiles/TimeWheel.dir/TimeWheel.cpp.i
-.PHONY : TimeWheel.cpp.i
+src/Event.cpp.i:
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f TimeWheel/CMakeFiles/TimeWheel.dir/build.make TimeWheel/CMakeFiles/TimeWheel.dir/src/Event.cpp.i
+.PHONY : src/Event.cpp.i
 
-TimeWheel.s: TimeWheel.cpp.s
-.PHONY : TimeWheel.s
+src/Event.s: src/Event.cpp.s
+.PHONY : src/Event.s
 
 # target to generate assembly for a file
-TimeWheel.cpp.s:
-	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f TimeWheel/CMakeFiles/TimeWheel.dir/build.make TimeWheel/CMakeFiles/TimeWheel.dir/TimeWheel.cpp.s
-.PHONY : TimeWheel.cpp.s
+src/Event.cpp.s:
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f TimeWheel/CMakeFiles/TimeWheel.dir/build.make TimeWheel/CMakeFiles/TimeWheel.dir/src/Event.cpp.s
+.PHONY : src/Event.cpp.s
+
+src/TimeWheel.o: src/TimeWheel.cpp.o
+.PHONY : src/TimeWheel.o
+
+# target to build an object file
+src/TimeWheel.cpp.o:
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f TimeWheel/CMakeFiles/TimeWheel.dir/build.make TimeWheel/CMakeFiles/TimeWheel.dir/src/TimeWheel.cpp.o
+.PHONY : src/TimeWheel.cpp.o
+
+src/TimeWheel.i: src/TimeWheel.cpp.i
+.PHONY : src/TimeWheel.i
+
+# target to preprocess a source file
+src/TimeWheel.cpp.i:
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f TimeWheel/CMakeFiles/TimeWheel.dir/build.make TimeWheel/CMakeFiles/TimeWheel.dir/src/TimeWheel.cpp.i
+.PHONY : src/TimeWheel.cpp.i
+
+src/TimeWheel.s: src/TimeWheel.cpp.s
+.PHONY : src/TimeWheel.s
+
+# target to generate assembly for a file
+src/TimeWheel.cpp.s:
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f TimeWheel/CMakeFiles/TimeWheel.dir/build.make TimeWheel/CMakeFiles/TimeWheel.dir/src/TimeWheel.cpp.s
+.PHONY : src/TimeWheel.cpp.s
 
 # Help Target
 help:
@@ -188,12 +212,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... TimeWheel"
 	@echo "... TimeWheelHeaders"
-	@echo "... Event.o"
-	@echo "... Event.i"
-	@echo "... Event.s"
-	@echo "... TimeWheel.o"
-	@echo "... TimeWheel.i"
-	@echo "... TimeWheel.s"
+	@echo "... src/CircuitReader.o"
+	@echo "... src/CircuitReader.i"
+	@echo "... src/CircuitReader.s"
+	@echo "... src/Event.o"
+	@echo "... src/Event.i"
+	@echo "... src/Event.s"
+	@echo "... src/TimeWheel.o"
+	@echo "... src/TimeWheel.i"
+	@echo "... src/TimeWheel.s"
 .PHONY : help
 
 

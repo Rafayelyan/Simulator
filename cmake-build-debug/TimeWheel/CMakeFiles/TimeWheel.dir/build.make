@@ -69,47 +69,63 @@ include TimeWheel/CMakeFiles/TimeWheel.dir/progress.make
 # Include the compile flags for this target's objects.
 include TimeWheel/CMakeFiles/TimeWheel.dir/flags.make
 
-TimeWheel/CMakeFiles/TimeWheel.dir/TimeWheel.cpp.o: TimeWheel/CMakeFiles/TimeWheel.dir/flags.make
-TimeWheel/CMakeFiles/TimeWheel.dir/TimeWheel.cpp.o: ../TimeWheel/TimeWheel.cpp
-TimeWheel/CMakeFiles/TimeWheel.dir/TimeWheel.cpp.o: TimeWheel/CMakeFiles/TimeWheel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object TimeWheel/CMakeFiles/TimeWheel.dir/TimeWheel.cpp.o"
-	cd /home/rafayel/thesis/Simulator/cmake-build-debug/TimeWheel && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TimeWheel/CMakeFiles/TimeWheel.dir/TimeWheel.cpp.o -MF CMakeFiles/TimeWheel.dir/TimeWheel.cpp.o.d -o CMakeFiles/TimeWheel.dir/TimeWheel.cpp.o -c /home/rafayel/thesis/Simulator/TimeWheel/TimeWheel.cpp
+TimeWheel/CMakeFiles/TimeWheel.dir/src/TimeWheel.cpp.o: TimeWheel/CMakeFiles/TimeWheel.dir/flags.make
+TimeWheel/CMakeFiles/TimeWheel.dir/src/TimeWheel.cpp.o: ../TimeWheel/src/TimeWheel.cpp
+TimeWheel/CMakeFiles/TimeWheel.dir/src/TimeWheel.cpp.o: TimeWheel/CMakeFiles/TimeWheel.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object TimeWheel/CMakeFiles/TimeWheel.dir/src/TimeWheel.cpp.o"
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug/TimeWheel && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TimeWheel/CMakeFiles/TimeWheel.dir/src/TimeWheel.cpp.o -MF CMakeFiles/TimeWheel.dir/src/TimeWheel.cpp.o.d -o CMakeFiles/TimeWheel.dir/src/TimeWheel.cpp.o -c /home/rafayel/thesis/Simulator/TimeWheel/src/TimeWheel.cpp
 
-TimeWheel/CMakeFiles/TimeWheel.dir/TimeWheel.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TimeWheel.dir/TimeWheel.cpp.i"
-	cd /home/rafayel/thesis/Simulator/cmake-build-debug/TimeWheel && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rafayel/thesis/Simulator/TimeWheel/TimeWheel.cpp > CMakeFiles/TimeWheel.dir/TimeWheel.cpp.i
+TimeWheel/CMakeFiles/TimeWheel.dir/src/TimeWheel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TimeWheel.dir/src/TimeWheel.cpp.i"
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug/TimeWheel && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rafayel/thesis/Simulator/TimeWheel/src/TimeWheel.cpp > CMakeFiles/TimeWheel.dir/src/TimeWheel.cpp.i
 
-TimeWheel/CMakeFiles/TimeWheel.dir/TimeWheel.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TimeWheel.dir/TimeWheel.cpp.s"
-	cd /home/rafayel/thesis/Simulator/cmake-build-debug/TimeWheel && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rafayel/thesis/Simulator/TimeWheel/TimeWheel.cpp -o CMakeFiles/TimeWheel.dir/TimeWheel.cpp.s
+TimeWheel/CMakeFiles/TimeWheel.dir/src/TimeWheel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TimeWheel.dir/src/TimeWheel.cpp.s"
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug/TimeWheel && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rafayel/thesis/Simulator/TimeWheel/src/TimeWheel.cpp -o CMakeFiles/TimeWheel.dir/src/TimeWheel.cpp.s
 
-TimeWheel/CMakeFiles/TimeWheel.dir/Event.cpp.o: TimeWheel/CMakeFiles/TimeWheel.dir/flags.make
-TimeWheel/CMakeFiles/TimeWheel.dir/Event.cpp.o: ../TimeWheel/Event.cpp
-TimeWheel/CMakeFiles/TimeWheel.dir/Event.cpp.o: TimeWheel/CMakeFiles/TimeWheel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object TimeWheel/CMakeFiles/TimeWheel.dir/Event.cpp.o"
-	cd /home/rafayel/thesis/Simulator/cmake-build-debug/TimeWheel && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TimeWheel/CMakeFiles/TimeWheel.dir/Event.cpp.o -MF CMakeFiles/TimeWheel.dir/Event.cpp.o.d -o CMakeFiles/TimeWheel.dir/Event.cpp.o -c /home/rafayel/thesis/Simulator/TimeWheel/Event.cpp
+TimeWheel/CMakeFiles/TimeWheel.dir/src/Event.cpp.o: TimeWheel/CMakeFiles/TimeWheel.dir/flags.make
+TimeWheel/CMakeFiles/TimeWheel.dir/src/Event.cpp.o: ../TimeWheel/src/Event.cpp
+TimeWheel/CMakeFiles/TimeWheel.dir/src/Event.cpp.o: TimeWheel/CMakeFiles/TimeWheel.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object TimeWheel/CMakeFiles/TimeWheel.dir/src/Event.cpp.o"
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug/TimeWheel && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TimeWheel/CMakeFiles/TimeWheel.dir/src/Event.cpp.o -MF CMakeFiles/TimeWheel.dir/src/Event.cpp.o.d -o CMakeFiles/TimeWheel.dir/src/Event.cpp.o -c /home/rafayel/thesis/Simulator/TimeWheel/src/Event.cpp
 
-TimeWheel/CMakeFiles/TimeWheel.dir/Event.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TimeWheel.dir/Event.cpp.i"
-	cd /home/rafayel/thesis/Simulator/cmake-build-debug/TimeWheel && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rafayel/thesis/Simulator/TimeWheel/Event.cpp > CMakeFiles/TimeWheel.dir/Event.cpp.i
+TimeWheel/CMakeFiles/TimeWheel.dir/src/Event.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TimeWheel.dir/src/Event.cpp.i"
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug/TimeWheel && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rafayel/thesis/Simulator/TimeWheel/src/Event.cpp > CMakeFiles/TimeWheel.dir/src/Event.cpp.i
 
-TimeWheel/CMakeFiles/TimeWheel.dir/Event.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TimeWheel.dir/Event.cpp.s"
-	cd /home/rafayel/thesis/Simulator/cmake-build-debug/TimeWheel && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rafayel/thesis/Simulator/TimeWheel/Event.cpp -o CMakeFiles/TimeWheel.dir/Event.cpp.s
+TimeWheel/CMakeFiles/TimeWheel.dir/src/Event.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TimeWheel.dir/src/Event.cpp.s"
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug/TimeWheel && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rafayel/thesis/Simulator/TimeWheel/src/Event.cpp -o CMakeFiles/TimeWheel.dir/src/Event.cpp.s
+
+TimeWheel/CMakeFiles/TimeWheel.dir/src/CircuitReader.cpp.o: TimeWheel/CMakeFiles/TimeWheel.dir/flags.make
+TimeWheel/CMakeFiles/TimeWheel.dir/src/CircuitReader.cpp.o: ../TimeWheel/src/CircuitReader.cpp
+TimeWheel/CMakeFiles/TimeWheel.dir/src/CircuitReader.cpp.o: TimeWheel/CMakeFiles/TimeWheel.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object TimeWheel/CMakeFiles/TimeWheel.dir/src/CircuitReader.cpp.o"
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug/TimeWheel && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT TimeWheel/CMakeFiles/TimeWheel.dir/src/CircuitReader.cpp.o -MF CMakeFiles/TimeWheel.dir/src/CircuitReader.cpp.o.d -o CMakeFiles/TimeWheel.dir/src/CircuitReader.cpp.o -c /home/rafayel/thesis/Simulator/TimeWheel/src/CircuitReader.cpp
+
+TimeWheel/CMakeFiles/TimeWheel.dir/src/CircuitReader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TimeWheel.dir/src/CircuitReader.cpp.i"
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug/TimeWheel && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rafayel/thesis/Simulator/TimeWheel/src/CircuitReader.cpp > CMakeFiles/TimeWheel.dir/src/CircuitReader.cpp.i
+
+TimeWheel/CMakeFiles/TimeWheel.dir/src/CircuitReader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TimeWheel.dir/src/CircuitReader.cpp.s"
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug/TimeWheel && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rafayel/thesis/Simulator/TimeWheel/src/CircuitReader.cpp -o CMakeFiles/TimeWheel.dir/src/CircuitReader.cpp.s
 
 # Object files for target TimeWheel
 TimeWheel_OBJECTS = \
-"CMakeFiles/TimeWheel.dir/TimeWheel.cpp.o" \
-"CMakeFiles/TimeWheel.dir/Event.cpp.o"
+"CMakeFiles/TimeWheel.dir/src/TimeWheel.cpp.o" \
+"CMakeFiles/TimeWheel.dir/src/Event.cpp.o" \
+"CMakeFiles/TimeWheel.dir/src/CircuitReader.cpp.o"
 
 # External object files for target TimeWheel
 TimeWheel_EXTERNAL_OBJECTS =
 
-TimeWheel/libTimeWheel.a: TimeWheel/CMakeFiles/TimeWheel.dir/TimeWheel.cpp.o
-TimeWheel/libTimeWheel.a: TimeWheel/CMakeFiles/TimeWheel.dir/Event.cpp.o
+TimeWheel/libTimeWheel.a: TimeWheel/CMakeFiles/TimeWheel.dir/src/TimeWheel.cpp.o
+TimeWheel/libTimeWheel.a: TimeWheel/CMakeFiles/TimeWheel.dir/src/Event.cpp.o
+TimeWheel/libTimeWheel.a: TimeWheel/CMakeFiles/TimeWheel.dir/src/CircuitReader.cpp.o
 TimeWheel/libTimeWheel.a: TimeWheel/CMakeFiles/TimeWheel.dir/build.make
 TimeWheel/libTimeWheel.a: TimeWheel/CMakeFiles/TimeWheel.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libTimeWheel.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libTimeWheel.a"
 	cd /home/rafayel/thesis/Simulator/cmake-build-debug/TimeWheel && $(CMAKE_COMMAND) -P CMakeFiles/TimeWheel.dir/cmake_clean_target.cmake
 	cd /home/rafayel/thesis/Simulator/cmake-build-debug/TimeWheel && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TimeWheel.dir/link.txt --verbose=$(VERBOSE)
 

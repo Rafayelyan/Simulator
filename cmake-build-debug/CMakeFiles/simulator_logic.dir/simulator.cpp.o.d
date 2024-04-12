@@ -1,8 +1,8 @@
 CMakeFiles/simulator_logic.dir/simulator.cpp.o: \
  /home/rafayel/thesis/Simulator/simulator.cpp /usr/include/stdc-predef.h \
- /home/rafayel/thesis/Simulator/logic_elements/AndGate.h \
- /home/rafayel/thesis/Simulator/logic_elements/Gate.h \
- /home/rafayel/thesis/Simulator/logic_elements/Wire.h \
+ /home/rafayel/thesis/Simulator/logic_elements/include/AndGate.h \
+ /home/rafayel/thesis/Simulator/logic_elements/include/Gate.h \
+ /home/rafayel/thesis/Simulator/logic_elements/include/Wire.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -205,6 +205,14 @@ CMakeFiles/simulator_logic.dir/simulator.cpp.o: \
  /usr/include/c++/11/bits/uses_allocator_args.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /home/rafayel/thesis/Simulator/logic_elements/Utils.h \
+ /home/rafayel/thesis/Simulator/logic_elements/include/Utils.h \
  /usr/include/c++/11/iostream /usr/include/c++/11/istream \
- /usr/include/c++/11/bits/istream.tcc
+ /usr/include/c++/11/bits/istream.tcc \
+ /home/rafayel/thesis/Simulator/logic_elements/include/OrGate.h \
+ /home/rafayel/thesis/Simulator/logic_elements/include/InverterGate.h \
+ /home/rafayel/thesis/Simulator/TimeWheel/include/CircuitReader.h \
+ /home/rafayel/thesis/Simulator/logic_elements/include/Wire.h \
+ /home/rafayel/thesis/Simulator/TimeWheel/include/TimeWheel.h \
+ /home/rafayel/thesis/Simulator/logic_elements/include/Gate.h \
+ /home/rafayel/thesis/Simulator/TimeWheel/include/Event.h \
+ /home/rafayel/thesis/Simulator/logic_elements/include/Utils.h

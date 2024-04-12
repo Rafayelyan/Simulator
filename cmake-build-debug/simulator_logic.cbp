@@ -24,6 +24,10 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/rafayel/thesis/Simulator/logic_elements"/>
+					<Add directory="/home/rafayel/thesis/Simulator/TimeWheel"/>
+					<Add directory="/home/rafayel/thesis/Simulator/logic_elements/include"/>
+					<Add directory="/home/rafayel/thesis/Simulator/TimeWheel/include"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/include/c++/11/backward"/>
@@ -46,6 +50,10 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/rafayel/thesis/Simulator/logic_elements"/>
+					<Add directory="/home/rafayel/thesis/Simulator/TimeWheel"/>
+					<Add directory="/home/rafayel/thesis/Simulator/logic_elements/include"/>
+					<Add directory="/home/rafayel/thesis/Simulator/TimeWheel/include"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/include/c++/11/backward"/>
@@ -88,6 +96,9 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/rafayel/thesis/Simulator/logic_elements"/>
+					<Add directory="/home/rafayel/thesis/Simulator/TimeWheel"/>
+					<Add directory="/home/rafayel/thesis/Simulator/logic_elements/include"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/include/c++/11/backward"/>
@@ -110,6 +121,9 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/rafayel/thesis/Simulator/logic_elements"/>
+					<Add directory="/home/rafayel/thesis/Simulator/TimeWheel"/>
+					<Add directory="/home/rafayel/thesis/Simulator/logic_elements/include"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/include/c++/11/backward"/>
@@ -132,6 +146,9 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/rafayel/thesis/Simulator/logic_elements"/>
+					<Add directory="/home/rafayel/thesis/Simulator/TimeWheel"/>
+					<Add directory="/home/rafayel/thesis/Simulator/TimeWheel/include"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/include/c++/11/backward"/>
@@ -154,6 +171,9 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/rafayel/thesis/Simulator/logic_elements"/>
+					<Add directory="/home/rafayel/thesis/Simulator/TimeWheel"/>
+					<Add directory="/home/rafayel/thesis/Simulator/TimeWheel/include"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/include/c++/11/backward"/>
@@ -170,40 +190,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/rafayel/thesis/Simulator/TimeWheel/Event.cpp">
+		<Unit filename="/home/rafayel/thesis/Simulator/TimeWheel/src/CircuitReader.cpp">
 			<Option target="TimeWheel"/>
 		</Unit>
-		<Unit filename="/home/rafayel/thesis/Simulator/TimeWheel/Event.h">
+		<Unit filename="/home/rafayel/thesis/Simulator/TimeWheel/src/Event.cpp">
 			<Option target="TimeWheel"/>
 		</Unit>
-		<Unit filename="/home/rafayel/thesis/Simulator/TimeWheel/TimeWheel.cpp">
+		<Unit filename="/home/rafayel/thesis/Simulator/TimeWheel/src/TimeWheel.cpp">
 			<Option target="TimeWheel"/>
 		</Unit>
-		<Unit filename="/home/rafayel/thesis/Simulator/TimeWheel/TimeWheel.h">
-			<Option target="TimeWheel"/>
-		</Unit>
-		<Unit filename="/home/rafayel/thesis/Simulator/logic_elements/AndGate.cpp">
+		<Unit filename="/home/rafayel/thesis/Simulator/logic_elements/src/AndGate.cpp">
 			<Option target="logic_elements"/>
 		</Unit>
-		<Unit filename="/home/rafayel/thesis/Simulator/logic_elements/AndGate.h">
+		<Unit filename="/home/rafayel/thesis/Simulator/logic_elements/src/InverterGate.cpp">
 			<Option target="logic_elements"/>
 		</Unit>
-		<Unit filename="/home/rafayel/thesis/Simulator/logic_elements/InverterGate.cpp">
+		<Unit filename="/home/rafayel/thesis/Simulator/logic_elements/src/OrGate.cpp">
 			<Option target="logic_elements"/>
 		</Unit>
-		<Unit filename="/home/rafayel/thesis/Simulator/logic_elements/InverterGate.h">
+		<Unit filename="/home/rafayel/thesis/Simulator/logic_elements/src/Utils.cpp">
 			<Option target="logic_elements"/>
 		</Unit>
-		<Unit filename="/home/rafayel/thesis/Simulator/logic_elements/OrGate.cpp">
-			<Option target="logic_elements"/>
-		</Unit>
-		<Unit filename="/home/rafayel/thesis/Simulator/logic_elements/OrGate.h">
-			<Option target="logic_elements"/>
-		</Unit>
-		<Unit filename="/home/rafayel/thesis/Simulator/logic_elements/Wire.cpp">
-			<Option target="logic_elements"/>
-		</Unit>
-		<Unit filename="/home/rafayel/thesis/Simulator/logic_elements/Wire.h">
+		<Unit filename="/home/rafayel/thesis/Simulator/logic_elements/src/Wire.cpp">
 			<Option target="logic_elements"/>
 		</Unit>
 		<Unit filename="/home/rafayel/thesis/Simulator/simulator.cpp">
