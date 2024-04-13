@@ -41,17 +41,24 @@ std::vector<Event>::iterator TimeWheel::FindNextEvent()
 void TimeWheel::PopEvent()
 {
     std::vector<Event>::iterator eventIt = FindNextEvent();
+    std::shared_ptr<Gate> leftGatePtr = eventIt->m_wire->m_left.lock();
+
+    if (!leftGatePtr)
+    {
+        eventIt->ChangePhaseTo(Utils::Phase::Switched);
+    }
+    else
+    {
+        eventIt->ChangePhaseTo(Utils::Phase::StartedSwitching);
+    }
 
     eventIt->m_wire->ChangeStateTo(eventIt->m_state);
     m_currentTime = eventIt->m_tStart;
     // print the state in the output
     std::cout<<"wire : "<<eventIt->m_wire->m_name<<", "<<eventIt->m_tStart<<", "<<eventIt->m_state<<std::endl;
-
-    eventIt->ChangePhaseTo(Utils::Phase::StartedSwitching);
     if (!IsAnyDisturbingSignal(eventIt))
     {
         PlaceFanouts(eventIt->m_wire);
-        //eventIt->ChangePhaseTo(Utils::Phase::StartedSwitching);
     }
 }
 
@@ -97,6 +104,16 @@ bool TimeWheel::IsAnyDisturbingSignal(std::vector<Event>::iterator currentEvent)
 
 void TimeWheel::PushEvent(Event newEvent)
 {
+    for (Event& event : m_timeWheel)
+    {
+        if (newEvent.m_wire == event.m_wire && newEvent.m_state == event.m_state &&
+            std::max(newEvent.m_tStart, event.m_tStart) <= std::min(newEvent.m_tStabile, event.m_tStabile))
+        {
+            event.ResetEventAndInitTimeParams(event.m_wire, std::min(newEvent.m_tStart, event.m_tStart), std::max(newEvent.m_tStabile, event.m_tStabile));
+            return ;
+        }
+    }
+
     for (Event& event : m_timeWheel)
     {
         if (event.m_phase == Utils::Phase::Switched)

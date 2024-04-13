@@ -22,7 +22,7 @@ Event::Event(const Event &other)
 
 Event &Event::operator=(const Event& other)
 {
-    if (this != &other)
+    if (this == &other)
     {
         return *this;
     }
