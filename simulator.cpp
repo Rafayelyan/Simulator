@@ -3,9 +3,11 @@
 #include <InverterGate.h>
 #include <CircuitReader.h>
 
+#include <CircuitParser.h>
+
 #include <memory>
 
-int main()
+int createCircuit()
 {
     size_t deltaTStart = 2;
     size_t deltaTStabile = 3;
@@ -58,4 +60,18 @@ int main()
 
 
     return 0;
+}
+
+int main(const int argc, const char **argv){
+    if(argc < 2) {
+        std::cerr << "Usage: ./sample_parser verilog_file\n";
+        return EXIT_FAILURE;
+    }
+
+    if(std::filesystem::exists(argv[1])) {
+        CircuitParser parser;
+        parser.read(argv[1]);
+        parser.GetGateData();
+    }
+    return EXIT_SUCCESS;
 }

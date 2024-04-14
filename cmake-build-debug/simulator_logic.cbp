@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="simulator_logic"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\logic_elements\;CMake Files\TimeWheel\;CMake Files\CircuitParser\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/rafayel/thesis/Simulator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simulator_logic">
+				<Option output="/home/rafayel/thesis/Simulator/cmake-build-debug/simulator_logic" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rafayel/thesis/Simulator/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rafayel/thesis/Simulator/logic_elements"/>
+					<Add directory="/home/rafayel/thesis/Simulator/TimeWheel"/>
+					<Add directory="/home/rafayel/thesis/Simulator/CircuitParser"/>
+					<Add directory="/home/rafayel/thesis/Simulator/logic_elements/include"/>
+					<Add directory="/home/rafayel/thesis/Simulator/TimeWheel/include"/>
+					<Add directory="/home/rafayel/thesis/Simulator/CircuitParser/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 simulator_logic"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simulator_logic/fast">
+				<Option output="/home/rafayel/thesis/Simulator/cmake-build-debug/simulator_logic" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rafayel/thesis/Simulator/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rafayel/thesis/Simulator/logic_elements"/>
+					<Add directory="/home/rafayel/thesis/Simulator/TimeWheel"/>
+					<Add directory="/home/rafayel/thesis/Simulator/CircuitParser"/>
+					<Add directory="/home/rafayel/thesis/Simulator/logic_elements/include"/>
+					<Add directory="/home/rafayel/thesis/Simulator/TimeWheel/include"/>
+					<Add directory="/home/rafayel/thesis/Simulator/CircuitParser/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 simulator_logic/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/rafayel/thesis/Simulator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/rafayel/thesis/Simulator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="logic_elements">
+				<Option output="/home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements/liblogic_elements.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rafayel/thesis/Simulator/logic_elements"/>
+					<Add directory="/home/rafayel/thesis/Simulator/TimeWheel"/>
+					<Add directory="/home/rafayel/thesis/Simulator/CircuitParser"/>
+					<Add directory="/home/rafayel/thesis/Simulator/logic_elements/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements/Makefile&quot;  VERBOSE=1 logic_elements"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="logic_elements/fast">
+				<Option output="/home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements/liblogic_elements.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rafayel/thesis/Simulator/logic_elements"/>
+					<Add directory="/home/rafayel/thesis/Simulator/TimeWheel"/>
+					<Add directory="/home/rafayel/thesis/Simulator/CircuitParser"/>
+					<Add directory="/home/rafayel/thesis/Simulator/logic_elements/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements/Makefile&quot;  VERBOSE=1 logic_elements/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TimeWheel">
+				<Option output="/home/rafayel/thesis/Simulator/cmake-build-debug/TimeWheel/libTimeWheel.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rafayel/thesis/Simulator/cmake-build-debug/TimeWheel"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rafayel/thesis/Simulator/logic_elements"/>
+					<Add directory="/home/rafayel/thesis/Simulator/TimeWheel"/>
+					<Add directory="/home/rafayel/thesis/Simulator/CircuitParser"/>
+					<Add directory="/home/rafayel/thesis/Simulator/TimeWheel/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/TimeWheel/Makefile&quot;  VERBOSE=1 TimeWheel"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/TimeWheel/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/TimeWheel/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/TimeWheel/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TimeWheel/fast">
+				<Option output="/home/rafayel/thesis/Simulator/cmake-build-debug/TimeWheel/libTimeWheel.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rafayel/thesis/Simulator/cmake-build-debug/TimeWheel"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rafayel/thesis/Simulator/logic_elements"/>
+					<Add directory="/home/rafayel/thesis/Simulator/TimeWheel"/>
+					<Add directory="/home/rafayel/thesis/Simulator/CircuitParser"/>
+					<Add directory="/home/rafayel/thesis/Simulator/TimeWheel/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/TimeWheel/Makefile&quot;  VERBOSE=1 TimeWheel/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/TimeWheel/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/TimeWheel/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/TimeWheel/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CircuitParser">
+				<Option output="/home/rafayel/thesis/Simulator/cmake-build-debug/CircuitParser/libCircuitParser.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rafayel/thesis/Simulator/cmake-build-debug/CircuitParser"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rafayel/thesis/Simulator/logic_elements"/>
+					<Add directory="/home/rafayel/thesis/Simulator/TimeWheel"/>
+					<Add directory="/home/rafayel/thesis/Simulator/CircuitParser"/>
+					<Add directory="/home/rafayel/thesis/Simulator/CircuitParser/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/CircuitParser/Makefile&quot;  VERBOSE=1 CircuitParser"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/CircuitParser/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/CircuitParser/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/CircuitParser/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CircuitParser/fast">
+				<Option output="/home/rafayel/thesis/Simulator/cmake-build-debug/CircuitParser/libCircuitParser.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rafayel/thesis/Simulator/cmake-build-debug/CircuitParser"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rafayel/thesis/Simulator/logic_elements"/>
+					<Add directory="/home/rafayel/thesis/Simulator/TimeWheel"/>
+					<Add directory="/home/rafayel/thesis/Simulator/CircuitParser"/>
+					<Add directory="/home/rafayel/thesis/Simulator/CircuitParser/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/CircuitParser/Makefile&quot;  VERBOSE=1 CircuitParser/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/CircuitParser/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/CircuitParser/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/CircuitParser/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/rafayel/thesis/Simulator/CircuitParser/src/CircuitParser.cpp">
+			<Option target="CircuitParser"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/TimeWheel/src/CircuitReader.cpp">
+			<Option target="TimeWheel"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/TimeWheel/src/Event.cpp">
+			<Option target="TimeWheel"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/TimeWheel/src/TimeWheel.cpp">
+			<Option target="TimeWheel"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/logic_elements/src/AndGate.cpp">
+			<Option target="logic_elements"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/logic_elements/src/InverterGate.cpp">
+			<Option target="logic_elements"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/logic_elements/src/OrGate.cpp">
+			<Option target="logic_elements"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/logic_elements/src/Utils.cpp">
+			<Option target="logic_elements"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/logic_elements/src/Wire.cpp">
+			<Option target="logic_elements"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/simulator.cpp">
+			<Option target="simulator_logic"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/logic_elements/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\logic_elements\"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/TimeWheel/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\TimeWheel\"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/CircuitParser/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CircuitParser\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

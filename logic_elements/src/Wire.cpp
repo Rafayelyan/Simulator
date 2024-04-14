@@ -1,3 +1,5 @@
+#include <algorithm>
+
 #include <Wire.h>
 
 Wire::Wire(const std::string& name)
