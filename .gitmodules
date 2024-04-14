@@ -1,0 +1,6 @@
+[submodule "third_party/Parser-Verilog"]
+	path = third_party/Parser-Verilog
+	url = https://github.com/OpenTimer/Parser-Verilog
+[submodule "CircuitParser/lib"]
+	path = CircuitParser/lib
+	url = https://github.com/OpenTimer/Parser-Verilog.git

@@ -1,1 +1,0 @@
-/usr/bin/g++ -g CMakeFiles/Simulator.dir/main.cpp.o -o Simulator 

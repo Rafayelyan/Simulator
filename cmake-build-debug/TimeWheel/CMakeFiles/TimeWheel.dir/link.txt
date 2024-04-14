@@ -1,2 +1,0 @@
-/usr/bin/ar qc libTimeWheel.a CMakeFiles/TimeWheel.dir/src/TimeWheel.cpp.o CMakeFiles/TimeWheel.dir/src/Event.cpp.o CMakeFiles/TimeWheel.dir/src/CircuitReader.cpp.o
-/usr/bin/ranlib libTimeWheel.a
