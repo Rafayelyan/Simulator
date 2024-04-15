@@ -145,12 +145,12 @@ CMakeFiles/simulator_logic.dir/all: CircuitParser/CMakeFiles/CircuitParserHeader
 CMakeFiles/simulator_logic.dir/all: CircuitParser/CMakeFiles/CircuitParser.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulator_logic.dir/build.make CMakeFiles/simulator_logic.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulator_logic.dir/build.make CMakeFiles/simulator_logic.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target simulator_logic"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles --progress-num=16,17 "Built target simulator_logic"
 .PHONY : CMakeFiles/simulator_logic.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/simulator_logic.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/simulator_logic.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/simulator_logic.dir/rule
@@ -197,12 +197,12 @@ logic_elements/CMakeFiles/logic_elements_headers.dir/clean:
 logic_elements/CMakeFiles/logic_elements.dir/all: logic_elements/CMakeFiles/logic_elements_headers.dir/all
 	$(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/depend
 	$(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles --progress-num=7,8,9,10,11,12 "Built target logic_elements"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles --progress-num=7,8,9,10,11,12,13,14,15 "Built target logic_elements"
 .PHONY : logic_elements/CMakeFiles/logic_elements.dir/all
 
 # Build rule for subdir invocation for target.
 logic_elements/CMakeFiles/logic_elements.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 logic_elements/CMakeFiles/logic_elements.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles 0
 .PHONY : logic_elements/CMakeFiles/logic_elements.dir/rule

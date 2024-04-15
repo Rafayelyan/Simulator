@@ -180,20 +180,30 @@ CMakeFiles/simulator_logic.dir/simulator.cpp.o: \
  /home/rafayel/thesis/Simulator/logic_elements/include/Gate.h \
  /home/rafayel/thesis/Simulator/TimeWheel/include/Event.h \
  /home/rafayel/thesis/Simulator/logic_elements/include/Utils.h \
+ /home/rafayel/thesis/Simulator/logic_elements/include/NandGate.h \
+ /home/rafayel/thesis/Simulator/logic_elements/include/XorGate.h \
+ /home/rafayel/thesis/Simulator/logic_elements/include/NorGate.h \
  /home/rafayel/thesis/Simulator/CircuitParser/include/CircuitParser.h \
+ /usr/include/c++/11/unordered_map /usr/include/c++/11/bits/hashtable.h \
+ /usr/include/c++/11/bits/hashtable_policy.h \
+ /usr/include/c++/11/bits/enable_special_members.h \
+ /usr/include/c++/11/bits/node_handle.h \
+ /usr/include/c++/11/bits/unordered_map.h \
+ /usr/include/c++/11/bits/erase_if.h \
+ /home/rafayel/thesis/Simulator/logic_elements/include/AndGate.h \
+ /home/rafayel/thesis/Simulator/logic_elements/include/OrGate.h \
+ /home/rafayel/thesis/Simulator/logic_elements/include/InverterGate.h \
+ /home/rafayel/thesis/Simulator/TimeWheel/include/CircuitReader.h \
+ /home/rafayel/thesis/Simulator/logic_elements/include/NandGate.h \
+ /home/rafayel/thesis/Simulator/logic_elements/include/XorGate.h \
+ /home/rafayel/thesis/Simulator/logic_elements/include/NorGate.h \
  /home/rafayel/thesis/Simulator/CircuitParser/lib/parser-verilog/verilog_driver.hpp \
  /usr/include/c++/11/cstddef /usr/include/c++/11/fstream \
  /usr/include/c++/11/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc /usr/include/c++/11/variant \
- /usr/include/c++/11/bits/enable_special_members.h \
- /usr/include/c++/11/bits/parse_numbers.h \
- /usr/include/c++/11/unordered_map /usr/include/c++/11/bits/hashtable.h \
- /usr/include/c++/11/bits/hashtable_policy.h \
- /usr/include/c++/11/bits/node_handle.h \
- /usr/include/c++/11/bits/unordered_map.h \
- /usr/include/c++/11/bits/erase_if.h /usr/include/c++/11/filesystem \
+ /usr/include/c++/11/bits/parse_numbers.h /usr/include/c++/11/filesystem \
  /usr/include/c++/11/bits/fs_fwd.h /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/limits \
  /usr/include/c++/11/ctime /usr/include/c++/11/bits/fs_path.h \
@@ -218,4 +228,5 @@ CMakeFiles/simulator_logic.dir/simulator.cpp.o: \
  /usr/include/c++/11/cassert /usr/include/assert.h \
  /home/rafayel/thesis/Simulator/CircuitParser/lib/parser-verilog/../build/location.hh \
  /home/rafayel/thesis/Simulator/CircuitParser/lib/parser-verilog/../build/location.hh \
- /home/rafayel/thesis/Simulator/CircuitParser/lib/parser-verilog/verilog_data.hpp
+ /home/rafayel/thesis/Simulator/CircuitParser/lib/parser-verilog/verilog_data.hpp \
+ /usr/include/c++/11/optional

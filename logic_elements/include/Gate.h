@@ -19,6 +19,8 @@ public:
         m_deltaTStart (deltaTStart),
         m_deltaTStabile(deltaTStabile) {}
 
+    ~Gate() {}
+
     std::vector<std::shared_ptr<Wire>>  m_inputs;
     std::vector<std::shared_ptr<Wire>>  m_outputs;
     size_t                              m_deltaTStart;

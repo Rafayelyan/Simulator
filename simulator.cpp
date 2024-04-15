@@ -2,10 +2,147 @@
 #include <OrGate.h>
 #include <InverterGate.h>
 #include <CircuitReader.h>
+#include <NandGate.h>
+#include <XorGate.h>
+#include <NorGate.h>
 
 #include <CircuitParser.h>
 
+#include <optional>
 #include <memory>
+#include <fstream>
+#include <sstream>
+#include <string>
+#include <utility>
+
+#include <optional>
+#include <vector>
+#include <string>
+#include <fstream>
+#include <sstream>
+#include <iostream>
+#include <unordered_map>
+
+class TestbenchManager {
+public:
+    using TestVector = std::vector<std::pair<size_t, bool>>;
+    using Testbench = std::vector<TestVector>;
+    using InitialStates = std::vector<bool>;
+
+    std::optional<std::string> loadTestbench(const std::string& filename) {
+        std::ifstream file(filename);
+        if (!file) {
+            return "Failed to open file: " + filename;
+        }
+
+        std::string line;
+        bool firstNonCommentLine = true;
+
+        while (std::getline(file, line)) {
+            std::istringstream iss(line);
+            if (line.empty() || line[0] == '#') {
+                continue;
+            }
+
+            if (firstNonCommentLine) {
+                bool state;
+                if (!(iss >> state)) {
+                    return "Expected initial states or test sequences, found none in " + filename;
+                }
+                iss.seekg(0);
+                InitialStates tempStates;
+                while (iss >> state) {
+                    tempStates.push_back(state);
+                }
+                if (tempStates.size() <= 1) {
+                    testbench.push_back({{0, tempStates.front()}});
+                } else {
+                    initialStates = tempStates;
+                }
+                firstNonCommentLine = false;
+                continue;
+            }
+
+            TestVector testVector;
+            size_t time;
+            bool state;
+            while (iss >> time >> state) {
+                testVector.emplace_back(time, state);
+            }
+            if (!testVector.empty()) {
+                testbench.push_back(testVector);
+            }
+        }
+
+        if (testbench.empty() && initialStates.empty()) {
+            return "No valid data found in " + filename;
+        }
+
+        return std::nullopt;
+    }
+
+    const Testbench& getTestbench() const {
+        return testbench;
+    }
+
+    const InitialStates& getInitialStates() const {
+        return initialStates;
+    }
+
+private:
+    Testbench testbench;
+    InitialStates initialStates;
+};
+
+
+
+
+
+int main(const int argc, const char **argv) {
+    if (argc < 3) {
+        std::cerr << "Usage: ./sample_parser verilog_file testbench_file\n";
+        return EXIT_FAILURE;
+    }
+
+    if (!std::filesystem::exists(argv[1]) || !std::filesystem::exists(argv[2])) {
+        std::cerr << "Error: File(s) not found.\n";
+        return EXIT_FAILURE;
+    }
+
+    CircuitParser parser;
+    parser.read(argv[1]);
+
+    TestbenchManager testbenchManager;
+    auto error = testbenchManager.loadTestbench(argv[2]);
+    if (error)
+    {
+        std::cout<<*error<<std::endl;
+        return EXIT_FAILURE;
+    }
+
+    auto& initialStates = testbenchManager.getInitialStates();
+    auto& testBench = testbenchManager.getTestbench();
+
+    parser.InitializeCircuit(initialStates);
+
+    CircuitReader circuitReader(parser.GetCircuitInputs(), testBench);
+
+    return EXIT_SUCCESS;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 int createCircuit()
 {
@@ -31,6 +168,11 @@ int createCircuit()
     outputs.clear(); outputs.push_back(f);
     std::shared_ptr<Gate> or1 = std::make_shared<OrGate>(inputs, outputs, deltaTStart, deltaTStabile);
 
+    // from some consequence to wrong linker working, delete
+    std::shared_ptr<Gate> xor1 = std::make_shared<XorGate>(inputs, outputs, deltaTStart, deltaTStabile);
+    std::shared_ptr<Gate> nand = std::make_shared<NandGate>(inputs, outputs, deltaTStart, deltaTStabile);
+    std::shared_ptr<Gate> nor = std::make_shared<NorGate>(inputs, outputs, deltaTStart, deltaTStabile);
+
     a->SetLeftRight({}, {and1});
     b->SetLeftRight({}, {and1});
     c->SetLeftRight({}, {invertor1});
@@ -50,11 +192,11 @@ int createCircuit()
     inputs.clear(); inputs.push_back(a); inputs.push_back(b); inputs.push_back(c);
     std::vector<std::vector<std::pair<size_t, bool>>> testBench;
     testBench.push_back({{0,0}, {3, 1}, {7, 0}, {8, 1}, {11, 0}, {13, 1}, {14, 0}, {15, 1}
-    });
+                        });
     testBench.push_back({{0,1}, {7, 0}, {9, 1}
-    });
+                        });
     testBench.push_back({{0,0}, {5, 1}, {9, 0}, {15, 1}
-    });
+                        });
 
     CircuitReader circuitReader(inputs, testBench);
 
@@ -62,7 +204,7 @@ int createCircuit()
     return 0;
 }
 
-int main(const int argc, const char **argv){
+int last_main(const int argc, const char **argv){
     if(argc < 2) {
         std::cerr << "Usage: ./sample_parser verilog_file\n";
         return EXIT_FAILURE;
@@ -71,7 +213,23 @@ int main(const int argc, const char **argv){
     if(std::filesystem::exists(argv[1])) {
         CircuitParser parser;
         parser.read(argv[1]);
-        parser.GetGateData();
+
+        std::vector<bool> inputStates{0, 1, 0};
+        parser.InitializeCircuit(inputStates);
+
+        parser.GetWireByName("d")->m_state = 0;
+        parser.GetWireByName("e")->m_state = 1;
+        parser.GetWireByName("f")->m_state = 1;
+
+        std::vector<std::vector<std::pair<size_t, bool>>> testBench;
+        testBench.push_back({{0,0}, {3, 1}, {7, 0}, {8, 1}, {11, 0}, {13, 1}, {14, 0}, {15, 1}
+                            });
+        testBench.push_back({{0,1}, {7, 0}, {9, 1}
+                            });
+        testBench.push_back({{0,0}, {5, 1}, {9, 0}, {15, 1}
+                            });
+
+        CircuitReader circuitReader(parser.GetCircuitInputs(), testBench);
     }
     return EXIT_SUCCESS;
 }

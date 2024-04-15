@@ -6,7 +6,6 @@ AndGate::AndGate(Wires inputs, Wires outputs, size_t deltaTStart, size_t deltaTS
 
 AndGate::~AndGate()
 {
-
 }
 
 bool AndGate::Logic()

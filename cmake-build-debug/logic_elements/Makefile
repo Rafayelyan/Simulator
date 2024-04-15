@@ -178,6 +178,54 @@ src/InverterGate.cpp.s:
 	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/src/InverterGate.cpp.s
 .PHONY : src/InverterGate.cpp.s
 
+src/NandGate.o: src/NandGate.cpp.o
+.PHONY : src/NandGate.o
+
+# target to build an object file
+src/NandGate.cpp.o:
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/src/NandGate.cpp.o
+.PHONY : src/NandGate.cpp.o
+
+src/NandGate.i: src/NandGate.cpp.i
+.PHONY : src/NandGate.i
+
+# target to preprocess a source file
+src/NandGate.cpp.i:
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/src/NandGate.cpp.i
+.PHONY : src/NandGate.cpp.i
+
+src/NandGate.s: src/NandGate.cpp.s
+.PHONY : src/NandGate.s
+
+# target to generate assembly for a file
+src/NandGate.cpp.s:
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/src/NandGate.cpp.s
+.PHONY : src/NandGate.cpp.s
+
+src/NorGate.o: src/NorGate.cpp.o
+.PHONY : src/NorGate.o
+
+# target to build an object file
+src/NorGate.cpp.o:
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/src/NorGate.cpp.o
+.PHONY : src/NorGate.cpp.o
+
+src/NorGate.i: src/NorGate.cpp.i
+.PHONY : src/NorGate.i
+
+# target to preprocess a source file
+src/NorGate.cpp.i:
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/src/NorGate.cpp.i
+.PHONY : src/NorGate.cpp.i
+
+src/NorGate.s: src/NorGate.cpp.s
+.PHONY : src/NorGate.s
+
+# target to generate assembly for a file
+src/NorGate.cpp.s:
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/src/NorGate.cpp.s
+.PHONY : src/NorGate.cpp.s
+
 src/OrGate.o: src/OrGate.cpp.o
 .PHONY : src/OrGate.o
 
@@ -250,6 +298,30 @@ src/Wire.cpp.s:
 	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/src/Wire.cpp.s
 .PHONY : src/Wire.cpp.s
 
+src/XorGate.o: src/XorGate.cpp.o
+.PHONY : src/XorGate.o
+
+# target to build an object file
+src/XorGate.cpp.o:
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/src/XorGate.cpp.o
+.PHONY : src/XorGate.cpp.o
+
+src/XorGate.i: src/XorGate.cpp.i
+.PHONY : src/XorGate.i
+
+# target to preprocess a source file
+src/XorGate.cpp.i:
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/src/XorGate.cpp.i
+.PHONY : src/XorGate.cpp.i
+
+src/XorGate.s: src/XorGate.cpp.s
+.PHONY : src/XorGate.s
+
+# target to generate assembly for a file
+src/XorGate.cpp.s:
+	cd /home/rafayel/thesis/Simulator/cmake-build-debug && $(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_elements.dir/build.make logic_elements/CMakeFiles/logic_elements.dir/src/XorGate.cpp.s
+.PHONY : src/XorGate.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -266,6 +338,12 @@ help:
 	@echo "... src/InverterGate.o"
 	@echo "... src/InverterGate.i"
 	@echo "... src/InverterGate.s"
+	@echo "... src/NandGate.o"
+	@echo "... src/NandGate.i"
+	@echo "... src/NandGate.s"
+	@echo "... src/NorGate.o"
+	@echo "... src/NorGate.i"
+	@echo "... src/NorGate.s"
 	@echo "... src/OrGate.o"
 	@echo "... src/OrGate.i"
 	@echo "... src/OrGate.s"
@@ -275,6 +353,9 @@ help:
 	@echo "... src/Wire.o"
 	@echo "... src/Wire.i"
 	@echo "... src/Wire.s"
+	@echo "... src/XorGate.o"
+	@echo "... src/XorGate.i"
+	@echo "... src/XorGate.s"
 .PHONY : help
 
 

@@ -222,7 +222,24 @@ CMakeFiles/simulator_logic.dir/simulator.cpp.o: ../simulator.cpp \
   ../logic_elements/include/Gate.h \
   ../TimeWheel/include/Event.h \
   ../logic_elements/include/Utils.h \
+  ../logic_elements/include/NandGate.h \
+  ../logic_elements/include/XorGate.h \
+  ../logic_elements/include/NorGate.h \
   ../CircuitParser/include/CircuitParser.h \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/node_handle.h \
+  /usr/include/c++/11/bits/unordered_map.h \
+  /usr/include/c++/11/bits/erase_if.h \
+  ../logic_elements/include/AndGate.h \
+  ../logic_elements/include/OrGate.h \
+  ../logic_elements/include/InverterGate.h \
+  ../TimeWheel/include/CircuitReader.h \
+  ../logic_elements/include/NandGate.h \
+  ../logic_elements/include/XorGate.h \
+  ../logic_elements/include/NorGate.h \
   ../CircuitParser/lib/parser-verilog/verilog_driver.hpp \
   /usr/include/c++/11/cstddef \
   /usr/include/c++/11/fstream \
@@ -231,14 +248,7 @@ CMakeFiles/simulator_logic.dir/simulator.cpp.o: ../simulator.cpp \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
   /usr/include/c++/11/bits/fstream.tcc \
   /usr/include/c++/11/variant \
-  /usr/include/c++/11/bits/enable_special_members.h \
   /usr/include/c++/11/bits/parse_numbers.h \
-  /usr/include/c++/11/unordered_map \
-  /usr/include/c++/11/bits/hashtable.h \
-  /usr/include/c++/11/bits/hashtable_policy.h \
-  /usr/include/c++/11/bits/node_handle.h \
-  /usr/include/c++/11/bits/unordered_map.h \
-  /usr/include/c++/11/bits/erase_if.h \
   /usr/include/c++/11/filesystem \
   /usr/include/c++/11/bits/fs_fwd.h \
   /usr/include/c++/11/chrono \
@@ -273,8 +283,11 @@ CMakeFiles/simulator_logic.dir/simulator.cpp.o: ../simulator.cpp \
   /usr/include/assert.h \
   ../CircuitParser/lib/build/location.hh \
   ../CircuitParser/lib/build/location.hh \
-  ../CircuitParser/lib/parser-verilog/verilog_data.hpp
+  ../CircuitParser/lib/parser-verilog/verilog_data.hpp \
+  /usr/include/c++/11/optional
 
+
+/usr/include/c++/11/optional:
 
 ../CircuitParser/lib/build/location.hh:
 
@@ -289,6 +302,10 @@ CMakeFiles/simulator_logic.dir/simulator.cpp.o: ../simulator.cpp \
 ../CircuitParser/lib/build/verilog_parser.tab.hh:
 
 /usr/include/FlexLexer.h:
+
+/usr/include/c++/11/bits/fs_ops.h:
+
+/usr/include/c++/11/bits/fs_dir.h:
 
 /usr/include/c++/11/experimental/bits/fs_ops.h:
 
@@ -440,6 +457,10 @@ CMakeFiles/simulator_logic.dir/simulator.cpp.o: ../simulator.cpp \
 
 /usr/include/c++/11/bits/alloc_traits.h:
 
+../CircuitParser/lib/parser-verilog/verilog_scanner.hpp:
+
+/usr/include/c++/11/pstl/pstl_config.h:
+
 /usr/include/c++/11/bits/allocator.h:
 
 /usr/include/c++/11/type_traits:
@@ -458,17 +479,11 @@ CMakeFiles/simulator_logic.dir/simulator.cpp.o: ../simulator.cpp \
 
 ../logic_elements/include/AndGate.h:
 
-/usr/include/c++/11/bits/fs_dir.h:
-
 ../logic_elements/include/Gate.h:
 
 /usr/include/c++/11/bits/stl_uninitialized.h:
 
 /usr/include/c++/11/backward/auto_ptr.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
-
-/usr/include/c++/11/bits/exception_defines.h:
 
 /usr/include/c++/11/bits/sstream.tcc:
 
@@ -549,8 +564,6 @@ CMakeFiles/simulator_logic.dir/simulator.cpp.o: ../simulator.cpp \
 /usr/include/c++/11/ext/alloc_traits.h:
 
 /usr/include/c++/11/bits/cxxabi_forced.h:
-
-/usr/include/c++/11/fstream:
 
 /usr/include/c++/11/bits/cpp_type_traits.h:
 
@@ -654,6 +667,12 @@ CMakeFiles/simulator_logic.dir/simulator.cpp.o: ../simulator.cpp \
 
 /usr/include/c++/11/cctype:
 
+/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
+
+/usr/include/c++/11/bits/exception_defines.h:
+
+../logic_elements/include/NandGate.h:
+
 /usr/include/c++/11/unordered_map:
 
 /usr/include/c++/11/locale:
@@ -752,25 +771,23 @@ CMakeFiles/simulator_logic.dir/simulator.cpp.o: ../simulator.cpp \
 
 ../TimeWheel/include/CircuitReader.h:
 
+/usr/include/c++/11/fstream:
+
+../logic_elements/include/XorGate.h:
+
+../logic_elements/include/NorGate.h:
+
 ../CircuitParser/include/CircuitParser.h:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h:
+/usr/include/c++/11/bits/hashtable.h:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h:
-
-/usr/include/c++/11/bits/fstream.tcc:
-
-/usr/include/c++/11/variant:
+/usr/include/c++/11/bits/hashtable_policy.h:
 
 /usr/include/c++/11/bits/codecvt.h:
 
 /usr/include/c++/11/bits/basic_ios.tcc:
 
 /usr/include/c++/11/bits/enable_special_members.h:
-
-/usr/include/c++/11/bits/hashtable.h:
-
-/usr/include/c++/11/bits/hashtable_policy.h:
 
 /usr/include/endian.h:
 
@@ -779,6 +796,14 @@ CMakeFiles/simulator_logic.dir/simulator.cpp.o: ../simulator.cpp \
 /usr/include/stdint.h:
 
 /usr/include/c++/11/bits/erase_if.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h:
+
+/usr/include/c++/11/bits/fstream.tcc:
+
+/usr/include/c++/11/variant:
 
 /usr/include/c++/11/filesystem:
 
@@ -805,9 +830,3 @@ CMakeFiles/simulator_logic.dir/simulator.cpp.o: ../simulator.cpp \
 /usr/include/c++/11/bits/quoted_string.h:
 
 /usr/include/c++/11/sstream:
-
-/usr/include/c++/11/bits/fs_ops.h:
-
-/usr/include/c++/11/pstl/pstl_config.h:
-
-../CircuitParser/lib/parser-verilog/verilog_scanner.hpp:

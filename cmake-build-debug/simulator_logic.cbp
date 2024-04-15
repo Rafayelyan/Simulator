@@ -268,6 +268,12 @@
 		<Unit filename="/home/rafayel/thesis/Simulator/logic_elements/src/InverterGate.cpp">
 			<Option target="logic_elements"/>
 		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/logic_elements/src/NandGate.cpp">
+			<Option target="logic_elements"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/logic_elements/src/NorGate.cpp">
+			<Option target="logic_elements"/>
+		</Unit>
 		<Unit filename="/home/rafayel/thesis/Simulator/logic_elements/src/OrGate.cpp">
 			<Option target="logic_elements"/>
 		</Unit>
@@ -275,6 +281,9 @@
 			<Option target="logic_elements"/>
 		</Unit>
 		<Unit filename="/home/rafayel/thesis/Simulator/logic_elements/src/Wire.cpp">
+			<Option target="logic_elements"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/logic_elements/src/XorGate.cpp">
 			<Option target="logic_elements"/>
 		</Unit>
 		<Unit filename="/home/rafayel/thesis/Simulator/simulator.cpp">
