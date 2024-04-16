@@ -96,6 +96,7 @@ simulator_logic: logic_elements/liblogic_elements.a
 simulator_logic: TimeWheel/libTimeWheel.a
 simulator_logic: CircuitParser/libCircuitParser.a
 simulator_logic: ../CircuitParser/lib/parser-verilog/verilog_parser_lib.a
+simulator_logic: benchmark/src/libbenchmark.a
 simulator_logic: CMakeFiles/simulator_logic.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable simulator_logic"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/simulator_logic.dir/link.txt --verbose=$(VERBOSE)

@@ -47,6 +47,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/rafayel/thesis/Simulator/cmake-build-debug/logic_elements/cmake_install.cmake")
   include("/home/rafayel/thesis/Simulator/cmake-build-debug/TimeWheel/cmake_install.cmake")
   include("/home/rafayel/thesis/Simulator/cmake-build-debug/CircuitParser/cmake_install.cmake")
+  include("/home/rafayel/thesis/Simulator/cmake-build-debug/benchmark/cmake_install.cmake")
 
 endif()
 

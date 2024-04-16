@@ -4,3 +4,6 @@
 [submodule "CircuitParser/lib"]
 	path = CircuitParser/lib
 	url = https://github.com/OpenTimer/Parser-Verilog.git
+[submodule "benchmark"]
+	path = benchmark
+	url = https://github.com/google/benchmark.git

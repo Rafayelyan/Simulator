@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="benchmark"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\benchmark\;CMake Files\benchmark\cmake\;CMake Files\benchmark\src\;CMake Files\logic_elements\;CMake Files\TimeWheel\;CMake Files\CircuitParser\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/rafayel/thesis/Simulator/cmake-build-debug/benchmark"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/benchmark/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/benchmark/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/benchmark/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/benchmark/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchmark">
+				<Option output="/home/rafayel/thesis/Simulator/cmake-build-debug/benchmark/src/libbenchmark.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rafayel/thesis/Simulator/cmake-build-debug/benchmark/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBENCHMARK_HAS_PTHREAD_AFFINITY"/>
+					<Add option="-DBENCHMARK_STATIC_DEFINE"/>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE64_SOURCE"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-DHAVE_STD_REGEX"/>
+					<Add option="-DHAVE_POSIX_REGEX"/>
+					<Add option="-DHAVE_STEADY_CLOCK"/>
+					<Add option="-DHAVE_PTHREAD_AFFINITY"/>
+					<Add directory="/home/rafayel/thesis/Simulator/logic_elements"/>
+					<Add directory="/home/rafayel/thesis/Simulator/TimeWheel"/>
+					<Add directory="/home/rafayel/thesis/Simulator/CircuitParser"/>
+					<Add directory="/home/rafayel/thesis/Simulator/benchmark/include"/>
+					<Add directory="/home/rafayel/thesis/Simulator/benchmark/src"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/benchmark/src/Makefile&quot;  VERBOSE=1 benchmark"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/benchmark/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/benchmark/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/benchmark/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchmark/fast">
+				<Option output="/home/rafayel/thesis/Simulator/cmake-build-debug/benchmark/src/libbenchmark.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rafayel/thesis/Simulator/cmake-build-debug/benchmark/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBENCHMARK_HAS_PTHREAD_AFFINITY"/>
+					<Add option="-DBENCHMARK_STATIC_DEFINE"/>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE64_SOURCE"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-DHAVE_STD_REGEX"/>
+					<Add option="-DHAVE_POSIX_REGEX"/>
+					<Add option="-DHAVE_STEADY_CLOCK"/>
+					<Add option="-DHAVE_PTHREAD_AFFINITY"/>
+					<Add directory="/home/rafayel/thesis/Simulator/logic_elements"/>
+					<Add directory="/home/rafayel/thesis/Simulator/TimeWheel"/>
+					<Add directory="/home/rafayel/thesis/Simulator/CircuitParser"/>
+					<Add directory="/home/rafayel/thesis/Simulator/benchmark/include"/>
+					<Add directory="/home/rafayel/thesis/Simulator/benchmark/src"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/benchmark/src/Makefile&quot;  VERBOSE=1 benchmark/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/benchmark/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/benchmark/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/benchmark/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchmark_main">
+				<Option output="/home/rafayel/thesis/Simulator/cmake-build-debug/benchmark/src/libbenchmark_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rafayel/thesis/Simulator/cmake-build-debug/benchmark/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE64_SOURCE"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-DHAVE_STD_REGEX"/>
+					<Add option="-DHAVE_POSIX_REGEX"/>
+					<Add option="-DHAVE_STEADY_CLOCK"/>
+					<Add option="-DHAVE_PTHREAD_AFFINITY"/>
+					<Add option="-DBENCHMARK_STATIC_DEFINE"/>
+					<Add directory="/home/rafayel/thesis/Simulator/logic_elements"/>
+					<Add directory="/home/rafayel/thesis/Simulator/TimeWheel"/>
+					<Add directory="/home/rafayel/thesis/Simulator/CircuitParser"/>
+					<Add directory="/home/rafayel/thesis/Simulator/benchmark/include"/>
+					<Add directory="/home/rafayel/thesis/Simulator/benchmark/src"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/benchmark/src/Makefile&quot;  VERBOSE=1 benchmark_main"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/benchmark/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/benchmark/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/benchmark/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchmark_main/fast">
+				<Option output="/home/rafayel/thesis/Simulator/cmake-build-debug/benchmark/src/libbenchmark_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rafayel/thesis/Simulator/cmake-build-debug/benchmark/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_LARGEFILE64_SOURCE"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-DHAVE_STD_REGEX"/>
+					<Add option="-DHAVE_POSIX_REGEX"/>
+					<Add option="-DHAVE_STEADY_CLOCK"/>
+					<Add option="-DHAVE_PTHREAD_AFFINITY"/>
+					<Add option="-DBENCHMARK_STATIC_DEFINE"/>
+					<Add directory="/home/rafayel/thesis/Simulator/logic_elements"/>
+					<Add directory="/home/rafayel/thesis/Simulator/TimeWheel"/>
+					<Add directory="/home/rafayel/thesis/Simulator/CircuitParser"/>
+					<Add directory="/home/rafayel/thesis/Simulator/benchmark/include"/>
+					<Add directory="/home/rafayel/thesis/Simulator/benchmark/src"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/benchmark/src/Makefile&quot;  VERBOSE=1 benchmark_main/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/benchmark/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/benchmark/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/rafayel/thesis/Simulator/cmake-build-debug/benchmark/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/include/benchmark/benchmark.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/include/benchmark/export.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/arraysize.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/benchmark.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/benchmark_api_internal.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/benchmark_api_internal.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/benchmark_main.cc">
+			<Option target="benchmark_main"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/benchmark_name.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/benchmark_register.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/benchmark_register.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/benchmark_runner.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/benchmark_runner.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/check.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/check.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/colorprint.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/colorprint.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/commandlineflags.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/commandlineflags.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/complexity.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/complexity.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/console_reporter.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/counter.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/counter.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/csv_reporter.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/cycleclock.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/internal_macros.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/json_reporter.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/log.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/mutex.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/perf_counters.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/perf_counters.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/re.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/reporter.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/statistics.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/statistics.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/string_util.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/string_util.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/sysinfo.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/thread_manager.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/thread_timer.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/timers.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/timers.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\benchmark\"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/cmake/AddCXXCompilerFlag.cmake">
+			<Option virtualFolder="CMake Files\benchmark\cmake\"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/cmake/CXXFeatureCheck.cmake">
+			<Option virtualFolder="CMake Files\benchmark\cmake\"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\benchmark\cmake\"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/cmake/GetGitVersion.cmake">
+			<Option virtualFolder="CMake Files\benchmark\cmake\"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/cmake/benchmark.pc.in">
+			<Option virtualFolder="CMake Files\benchmark\cmake\"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/cmake/benchmark_main.pc.in">
+			<Option virtualFolder="CMake Files\benchmark\cmake\"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/benchmark/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\benchmark\src\"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/logic_elements/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\logic_elements\"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/TimeWheel/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\TimeWheel\"/>
+		</Unit>
+		<Unit filename="/home/rafayel/thesis/Simulator/CircuitParser/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CircuitParser\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

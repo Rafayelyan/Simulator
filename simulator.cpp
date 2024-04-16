@@ -22,6 +22,8 @@
 #include <sstream>
 #include <iostream>
 #include <unordered_map>
+#include "benchmark/benchmark.h"
+
 
 class TestbenchManager {
 public:
@@ -66,6 +68,7 @@ public:
             TestVector testVector;
             size_t time;
             bool state;
+            iss.clear();
             while (iss >> time >> state) {
                 testVector.emplace_back(time, state);
             }
@@ -95,10 +98,7 @@ private:
 };
 
 
-
-
-
-int main(const int argc, const char **argv) {
+int main_(const int argc, const char **argv) {
     if (argc < 3) {
         std::cerr << "Usage: ./sample_parser verilog_file testbench_file\n";
         return EXIT_FAILURE;
@@ -130,7 +130,65 @@ int main(const int argc, const char **argv) {
     return EXIT_SUCCESS;
 }
 
+#include <iostream>
+#include <vector>
+#include <filesystem>
+#include <chrono>
 
+namespace fs = std::filesystem;
+
+void processSimulation(const std::string& verilogPath, const std::string& testbenchPath) {
+    static std::ofstream resultFile("simulation_results.csv", std::ios::out | std::ios::app);  // Open once, append to it
+
+    CircuitParser parser;
+    parser.read(verilogPath);
+
+    TestbenchManager testbenchManager;
+    auto error = testbenchManager.loadTestbench(testbenchPath);
+    if (error) {
+        std::cerr << "Error loading testbench: " << *error << std::endl;
+        return;
+    }
+
+    auto& initialStates = testbenchManager.getInitialStates();
+    auto& testBench = testbenchManager.getTestbench();
+
+    parser.InitializeCircuit(initialStates);
+
+    // Start timing here
+    auto start = std::chrono::high_resolution_clock::now();
+
+    CircuitReader circuitReader(parser.GetCircuitInputs(), testBench);
+
+    // End timing here
+    auto end = std::chrono::high_resolution_clock::now();
+    std::chrono::duration<double, std::milli> elapsed = end - start;
+
+    // Write result to file
+    resultFile << std::filesystem::path(verilogPath).filename() << ", " << elapsed.count() << '\n';
+}
+
+int main() {
+    const std::string rootPath = "VerilogFiles"; // Root directory of your project files
+
+    for (const auto& entry : fs::recursive_directory_iterator(rootPath)) {
+        if (entry.is_directory()) {
+            std::string verilogPath;
+            std::string testbenchPath;
+            for (const auto& file : fs::directory_iterator(entry)) {
+                if (file.path().extension() == ".v")
+                    verilogPath = file.path().string();
+                else if (file.path().extension() == ".txt")
+                    testbenchPath = file.path().string();
+            }
+            if (!verilogPath.empty() && !testbenchPath.empty()) {
+                processSimulation(verilogPath, testbenchPath);
+            }
+        }
+    }
+
+    return 0;
+}
 
 
 
@@ -204,32 +262,4 @@ int createCircuit()
     return 0;
 }
 
-int last_main(const int argc, const char **argv){
-    if(argc < 2) {
-        std::cerr << "Usage: ./sample_parser verilog_file\n";
-        return EXIT_FAILURE;
-    }
 
-    if(std::filesystem::exists(argv[1])) {
-        CircuitParser parser;
-        parser.read(argv[1]);
-
-        std::vector<bool> inputStates{0, 1, 0};
-        parser.InitializeCircuit(inputStates);
-
-        parser.GetWireByName("d")->m_state = 0;
-        parser.GetWireByName("e")->m_state = 1;
-        parser.GetWireByName("f")->m_state = 1;
-
-        std::vector<std::vector<std::pair<size_t, bool>>> testBench;
-        testBench.push_back({{0,0}, {3, 1}, {7, 0}, {8, 1}, {11, 0}, {13, 1}, {14, 0}, {15, 1}
-                            });
-        testBench.push_back({{0,1}, {7, 0}, {9, 1}
-                            });
-        testBench.push_back({{0,0}, {5, 1}, {9, 0}, {15, 1}
-                            });
-
-        CircuitReader circuitReader(parser.GetCircuitInputs(), testBench);
-    }
-    return EXIT_SUCCESS;
-}

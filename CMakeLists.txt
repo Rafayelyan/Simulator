@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -fsanitize=undefined,address -Wall -Wextra -Werror -Wno-register")
 #set(CMAKE_EXE_LINKER_FLAGS  "${CMAKE_EXE_LINKER_FLAGS} -g -fsanitize=undefined,address -Wl,--no-as-needed")
 set(CMAKE_EXE_LINKER_FLAGS  "${CMAKE_EXE_LINKER_FLAGS} -g -Wl,--no-as-needed")
-
+set(BENCHMARK_ENABLE_TESTING OFF)
 
 include_directories(
         ${CMAKE_SOURCE_DIR}/logic_elements
@@ -17,6 +17,7 @@ include_directories(
 add_subdirectory(logic_elements)
 add_subdirectory(TimeWheel)
 add_subdirectory(CircuitParser)
+add_subdirectory(benchmark)
 
 set(SOURCES simulator.cpp)
 
@@ -27,6 +28,7 @@ target_link_libraries(${PROJECT_NAME} PRIVATE
         TimeWheel
         CircuitParser
         ${CMAKE_SOURCE_DIR}/CircuitParser/lib/parser-verilog/verilog_parser_lib.a
+        benchmark::benchmark
 )
 
 file(COPY ${CMAKE_SOURCE_DIR}/VerilogFiles DESTINATION ${CMAKE_BINARY_DIR})

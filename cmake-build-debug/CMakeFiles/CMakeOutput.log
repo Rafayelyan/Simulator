@@ -449,3 +449,290 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
+Determining if the function shm_open exists in the rt passed with the following output:
+Change Dir: /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7734c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7734c.dir/build.make CMakeFiles/cmTC_7734c.dir/build
+gmake[1]: Entering directory '/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7734c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shm_open -o CMakeFiles/cmTC_7734c.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7734c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7734c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shm_open  -g -Wl,--no-as-needed  CMakeFiles/cmTC_7734c.dir/CheckFunctionExists.c.o -o cmTC_7734c  -lrt 
+gmake[1]: Leaving directory '/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WALL succeeded with the following output:
+Change Dir: /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_28d80/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_28d80.dir/build.make CMakeFiles/cmTC_28d80.dir/build
+gmake[1]: Entering directory '/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_28d80.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WALL  -g -fsanitize=undefined,address -Wall -Wextra -Werror -Wno-register  -Wall   -Wall -std=c++11 -o CMakeFiles/cmTC_28d80.dir/src.cxx.o -c /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_28d80
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28d80.dir/link.txt --verbose=1
+/usr/bin/c++  -g -fsanitize=undefined,address -Wall -Wextra -Werror -Wno-register  -Wall  -g -Wl,--no-as-needed  CMakeFiles/cmTC_28d80.dir/src.cxx.o -o cmTC_28d80 
+gmake[1]: Leaving directory '/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WEXTRA succeeded with the following output:
+Change Dir: /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_58649/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_58649.dir/build.make CMakeFiles/cmTC_58649.dir/build
+gmake[1]: Entering directory '/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_58649.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WEXTRA  -g -fsanitize=undefined,address -Wall -Wextra -Werror -Wno-register  -Wall  -Wextra   -Wextra -std=c++11 -o CMakeFiles/cmTC_58649.dir/src.cxx.o -c /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_58649
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58649.dir/link.txt --verbose=1
+/usr/bin/c++  -g -fsanitize=undefined,address -Wall -Wextra -Werror -Wno-register  -Wall  -Wextra  -g -Wl,--no-as-needed  CMakeFiles/cmTC_58649.dir/src.cxx.o -o cmTC_58649 
+gmake[1]: Leaving directory '/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHADOW succeeded with the following output:
+Change Dir: /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e0120/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e0120.dir/build.make CMakeFiles/cmTC_e0120.dir/build
+gmake[1]: Entering directory '/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e0120.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WSHADOW  -g -fsanitize=undefined,address -Wall -Wextra -Werror -Wno-register  -Wall  -Wextra  -Wshadow   -Wshadow -std=c++11 -o CMakeFiles/cmTC_e0120.dir/src.cxx.o -c /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e0120
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0120.dir/link.txt --verbose=1
+/usr/bin/c++  -g -fsanitize=undefined,address -Wall -Wextra -Werror -Wno-register  -Wall  -Wextra  -Wshadow  -g -Wl,--no-as-needed  CMakeFiles/cmTC_e0120.dir/src.cxx.o -o cmTC_e0120 
+gmake[1]: Leaving directory '/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WFLOAT_EQUAL succeeded with the following output:
+Change Dir: /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_29e0c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_29e0c.dir/build.make CMakeFiles/cmTC_29e0c.dir/build
+gmake[1]: Entering directory '/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_29e0c.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -g -fsanitize=undefined,address -Wall -Wextra -Werror -Wno-register  -Wall  -Wextra  -Wshadow  -Wfloat-equal   -Wfloat-equal -std=c++11 -o CMakeFiles/cmTC_29e0c.dir/src.cxx.o -c /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_29e0c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29e0c.dir/link.txt --verbose=1
+/usr/bin/c++  -g -fsanitize=undefined,address -Wall -Wextra -Werror -Wno-register  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -g -Wl,--no-as-needed  CMakeFiles/cmTC_29e0c.dir/src.cxx.o -o cmTC_29e0c 
+gmake[1]: Leaving directory '/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WOLD_STYLE_CAST succeeded with the following output:
+Change Dir: /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8f89c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8f89c.dir/build.make CMakeFiles/cmTC_8f89c.dir/build
+gmake[1]: Entering directory '/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8f89c.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WOLD_STYLE_CAST  -g -fsanitize=undefined,address -Wall -Wextra -Werror -Wno-register  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast   -Wold-style-cast -std=c++11 -o CMakeFiles/cmTC_8f89c.dir/src.cxx.o -c /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8f89c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f89c.dir/link.txt --verbose=1
+/usr/bin/c++  -g -fsanitize=undefined,address -Wall -Wextra -Werror -Wno-register  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -g -Wl,--no-as-needed  CMakeFiles/cmTC_8f89c.dir/src.cxx.o -o cmTC_8f89c 
+gmake[1]: Leaving directory '/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WCONVERSION succeeded with the following output:
+Change Dir: /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5ad3f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5ad3f.dir/build.make CMakeFiles/cmTC_5ad3f.dir/build
+gmake[1]: Entering directory '/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5ad3f.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WCONVERSION  -g -fsanitize=undefined,address -Wall -Wextra -Werror -Wno-register  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion   -Wconversion -std=c++11 -o CMakeFiles/cmTC_5ad3f.dir/src.cxx.o -c /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5ad3f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ad3f.dir/link.txt --verbose=1
+/usr/bin/c++  -g -fsanitize=undefined,address -Wall -Wextra -Werror -Wno-register  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -g -Wl,--no-as-needed  CMakeFiles/cmTC_5ad3f.dir/src.cxx.o -o cmTC_5ad3f 
+gmake[1]: Leaving directory '/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WERROR succeeded with the following output:
+Change Dir: /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a8250/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a8250.dir/build.make CMakeFiles/cmTC_a8250.dir/build
+gmake[1]: Entering directory '/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a8250.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WERROR  -g -fsanitize=undefined,address -Wall -Wextra -Werror -Wno-register  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror   -Werror -std=c++11 -o CMakeFiles/cmTC_a8250.dir/src.cxx.o -c /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a8250
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8250.dir/link.txt --verbose=1
+/usr/bin/c++  -g -fsanitize=undefined,address -Wall -Wextra -Werror -Wno-register  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -g -Wl,--no-as-needed  CMakeFiles/cmTC_a8250.dir/src.cxx.o -o cmTC_a8250 
+gmake[1]: Leaving directory '/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC succeeded with the following output:
+Change Dir: /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_30d8a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_30d8a.dir/build.make CMakeFiles/cmTC_30d8a.dir/build
+gmake[1]: Entering directory '/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_30d8a.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC  -g -fsanitize=undefined,address -Wall -Wextra -Werror -Wno-register  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic   -pedantic -std=c++11 -o CMakeFiles/cmTC_30d8a.dir/src.cxx.o -c /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_30d8a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30d8a.dir/link.txt --verbose=1
+/usr/bin/c++  -g -fsanitize=undefined,address -Wall -Wextra -Werror -Wno-register  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -g -Wl,--no-as-needed  CMakeFiles/cmTC_30d8a.dir/src.cxx.o -o cmTC_30d8a 
+gmake[1]: Leaving directory '/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC_ERRORS succeeded with the following output:
+Change Dir: /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_54b08/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_54b08.dir/build.make CMakeFiles/cmTC_54b08.dir/build
+gmake[1]: Entering directory '/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_54b08.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -g -fsanitize=undefined,address -Wall -Wextra -Werror -Wno-register  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors   -pedantic-errors -std=c++11 -o CMakeFiles/cmTC_54b08.dir/src.cxx.o -c /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_54b08
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54b08.dir/link.txt --verbose=1
+/usr/bin/c++  -g -fsanitize=undefined,address -Wall -Wextra -Werror -Wno-register  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -g -Wl,--no-as-needed  CMakeFiles/cmTC_54b08.dir/src.cxx.o -o cmTC_54b08 
+gmake[1]: Leaving directory '/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FSTRICT_ALIASING succeeded with the following output:
+Change Dir: /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cc954/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cc954.dir/build.make CMakeFiles/cmTC_cc954.dir/build
+gmake[1]: Entering directory '/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cc954.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -g -fsanitize=undefined,address -Wall -Wextra -Werror -Wno-register  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing   -fstrict-aliasing -std=c++11 -o CMakeFiles/cmTC_cc954.dir/src.cxx.o -c /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_cc954
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc954.dir/link.txt --verbose=1
+/usr/bin/c++  -g -fsanitize=undefined,address -Wall -Wextra -Werror -Wno-register  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -g -Wl,--no-as-needed  CMakeFiles/cmTC_cc954.dir/src.cxx.o -o cmTC_cc954 
+gmake[1]: Leaving directory '/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS succeeded with the following output:
+Change Dir: /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0f93a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0f93a.dir/build.make CMakeFiles/cmTC_0f93a.dir/build
+gmake[1]: Entering directory '/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0f93a.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -g -fsanitize=undefined,address -Wall -Wextra -Werror -Wno-register  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations   -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/cmTC_0f93a.dir/src.cxx.o -c /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0f93a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f93a.dir/link.txt --verbose=1
+/usr/bin/c++  -g -fsanitize=undefined,address -Wall -Wextra -Werror -Wno-register  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -g -Wl,--no-as-needed  CMakeFiles/cmTC_0f93a.dir/src.cxx.o -o cmTC_0f93a 
+gmake[1]: Leaving directory '/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WNO_DEPRECATED succeeded with the following output:
+Change Dir: /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_83218/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_83218.dir/build.make CMakeFiles/cmTC_83218.dir/build
+gmake[1]: Entering directory '/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_83218.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED  -g -fsanitize=undefined,address -Wall -Wextra -Werror -Wno-register  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated   -Wno-deprecated -std=c++11 -o CMakeFiles/cmTC_83218.dir/src.cxx.o -c /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_83218
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83218.dir/link.txt --verbose=1
+/usr/bin/c++  -g -fsanitize=undefined,address -Wall -Wextra -Werror -Wno-register  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -g -Wl,--no-as-needed  CMakeFiles/cmTC_83218.dir/src.cxx.o -o cmTC_83218 
+gmake[1]: Leaving directory '/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSTRICT_ALIASING succeeded with the following output:
+Change Dir: /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1238d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1238d.dir/build.make CMakeFiles/cmTC_1238d.dir/build
+gmake[1]: Entering directory '/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1238d.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -g -fsanitize=undefined,address -Wall -Wextra -Werror -Wno-register  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing   -Wstrict-aliasing -std=c++11 -o CMakeFiles/cmTC_1238d.dir/src.cxx.o -c /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1238d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1238d.dir/link.txt --verbose=1
+/usr/bin/c++  -g -fsanitize=undefined,address -Wall -Wextra -Werror -Wno-register  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -g -Wl,--no-as-needed  CMakeFiles/cmTC_1238d.dir/src.cxx.o -o cmTC_1238d 
+gmake[1]: Leaving directory '/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_COVERAGE succeeded with the following output:
+Change Dir: /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_98586/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_98586.dir/build.make CMakeFiles/cmTC_98586.dir/build
+gmake[1]: Entering directory '/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_98586.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_COVERAGE  -g -fsanitize=undefined,address -Wall -Wextra -Werror -Wno-register  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  --coverage   --coverage -std=c++11 -o CMakeFiles/cmTC_98586.dir/src.cxx.o -c /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_98586
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98586.dir/link.txt --verbose=1
+/usr/bin/c++  -g -fsanitize=undefined,address -Wall -Wextra -Werror -Wno-register  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  --coverage  -g -Wl,--no-as-needed  CMakeFiles/cmTC_98586.dir/src.cxx.o -o cmTC_98586 
+gmake[1]: Leaving directory '/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b8159/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b8159.dir/build.make CMakeFiles/cmTC_b8159.dir/build
+gmake[1]: Entering directory '/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b8159.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b8159.dir/CheckIncludeFile.c.o -c /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b8159
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8159.dir/link.txt --verbose=1
+/usr/bin/cc  -g -Wl,--no-as-needed  CMakeFiles/cmTC_b8159.dir/CheckIncludeFile.c.o -o cmTC_b8159 
+gmake[1]: Leaving directory '/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5d9cf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5d9cf.dir/build.make CMakeFiles/cmTC_5d9cf.dir/build
+gmake[1]: Entering directory '/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5d9cf.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_5d9cf.dir/src.c.o -c /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5d9cf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d9cf.dir/link.txt --verbose=1
+/usr/bin/cc  -g -Wl,--no-as-needed  CMakeFiles/cmTC_5d9cf.dir/src.c.o -o cmTC_5d9cf 
+gmake[1]: Leaving directory '/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE succeeded with the following output:
+Change Dir: /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_68dc3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_68dc3.dir/build.make CMakeFiles/cmTC_68dc3.dir/build
+gmake[1]: Entering directory '/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_68dc3.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WSUGGEST_OVERRIDE  -g -fsanitize=undefined,address -Wall -Wextra -Werror -Wno-register  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override   -Wsuggest-override -std=c++11 -o CMakeFiles/cmTC_68dc3.dir/src.cxx.o -c /home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_68dc3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68dc3.dir/link.txt --verbose=1
+/usr/bin/c++  -g -fsanitize=undefined,address -Wall -Wextra -Werror -Wno-register  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -g -Wl,--no-as-needed  CMakeFiles/cmTC_68dc3.dir/src.cxx.o -o cmTC_68dc3 
+gmake[1]: Leaving directory '/home/rafayel/thesis/Simulator/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
